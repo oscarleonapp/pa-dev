@@ -1,7 +1,26 @@
+/* LOGO */
 .container_logo {
     width: 78%;
 }
 
 .logo {
     height: 45px;
+}
+
+
+/* NAVBAR */
+.container_menu {
+    position: absolute;
+    bottom: 0px;
+    /* display: none; */
+}
+
+.text_link_menu {
+    width: 100%;
+    padding: 14px;
+    border-top: 1px solid rgba(20, 53, 91, 0.07);
+}
+
+.text_link_menu:last-child {
+    border-bottom: 1px solid rgba(20, 53, 91, 0.07);
 }
