@@ -1,0 +1,94 @@
+root {
+    --titulo: #001e32;
+    --subtitulos: #000000;
+    --background1: #008CE6;
+    --background2: #5AC8E6;
+    --blanco: #FFFFFF;
+    --negro: ##000000;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* ##### HEADER ##### */
+.header {
+    display: block;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #fff;
+    transition: box-shadow 0.2s;
+}
+
+
+/* ##### HEADER - CONTAINER ##### */
+.menu_center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+/* ##### HEADER - LOGO ##### */
+.container_logo {
+    position: relative;
+    display: inline;
+    width: 18%;
+}
+
+.container_logo {
+    width: 78%;
+}
+
+.jc_cta_logo {
+    transition: opacity 0.2s;
+}
+
+.jc_cta_logo:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    height: 35px;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+a.arrow_slider.w-inline-block,
+.arrow_slider.right {
+    z-index: 1;
+}
