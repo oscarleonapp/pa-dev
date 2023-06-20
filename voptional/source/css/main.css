@@ -302,3 +302,12 @@ a.arrow_slider.w-inline-block,
 .w--nav-dropdown-toggle-open {
     display: block;
 }
+
+/* MAIN */
+.main {
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
+    overflow: hidden;
+    position: relative;
+}
