@@ -15,6 +15,9 @@ root {
 
 html {
     font-size: 62.5%;
+    font-family: "myriad-pro-semi-condensed", sans-serif;
+    font-weight: 400;
+    font-style: bold;
 }
 
 /* ##### HEADER ##### */
@@ -165,10 +168,9 @@ a.arrow_slider.w-inline-block,
     /* display: inline-block; */
     padding: 5px 20px 5px 0px;
     float: right;
-    font-family: Barlow, sans-serif;
     color: var(--titulo);
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 600;
     text-decoration: none;
     /* transition: color 0.2s; */
 }
