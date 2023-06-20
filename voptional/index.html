@@ -19,6 +19,198 @@
 <body>
     <!-- HEADER -->
 
+    <link rel="stylesheet" href="/css/libraries/jplist/jplist.styles.css"/>
+    <section class="jc_cont_filtros">
+        <div class="contenedor">
+            <div class="formulario_filtros">
+                <form action="catalogo.html" method="get" id="formFiltrosDesktopSubmit" class="form-filtros w-clearfix jplist-panel">
+                    <input value="" data-jplist-control="textbox-filter" data-group="group1" data-name="filter-search" data-path=".nombre" type="search" class="search_filter search_filter--home w-input" name="name" placeholder="¿Qué auto buscas?" autocomplete="off" id="inputSearchName">
+                    <input class="input-hidden" id="inputSearchType" type="text" name="type" value="">
+                    <input class="input-hidden" id="inputSearchBrand" type="text" name="brand" value="">
+                    <input class="input-hidden" id="inputSearchTransmission" type="text" name="transmission" value="">
+                    <input class="input-hidden" id="inputSearchLocation" type="text" name="location" value="">
+                    <input class="input-hidden" id="inputSearchOrder" type="text" name="order" value="">
+                    <input class="input-hidden" id="inputSearchMinYear" type="text" name="minYear" value="">
+                    <input class="input-hidden" id="inputSearchMaxYear" type="text" name="maxYear" value="">
+                    <input class="input-hidden" id="inputSearchMinPrice" type="text" name="minPrice" value="">
+                    <input class="input-hidden" id="inputSearchMaxPrice" type="text" name="maxPrice" value="">
+                    <input class="input-hidden" id="inputSearchMinMileage" type="text" name="minMileage" value="">
+                    <input class="input-hidden" id="inputSearchMaxMileage" type="text" name="maxMileage" value="">
+                    <input class="input-hidden" id="inputSearchFuel" type="text" name="fuel" value="">
+                    <div class="mid__filter mid__filter--home w-clearfix">
+                        <div class="mid_filter_item">
+                            <div class="mid_filter_item_heading">
+                                <button id="mid_filter_type_button" type="button" class="mid_filter_item_heading_title w-button">Tipo de auto</button>
+                            </div>
+                            <div class="mid_filter_item_content">
+                                <div class="c-mid_filter_item_content">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-tipo" data-mode="radio" type="button" class="mid_filter_item_content_filter w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".hatchback" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/80949335-29d9-46a7-ab8d-d2d002ff5ad6/car-1.png);" type="button" class="mid_filter_item_content_filter w-button">Hatchback</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".pickup" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/f3d2fea2-f418-4888-a7d9-97baeab87414/car-2.png);" type="button" class="mid_filter_item_content_filter w-button">Pickup</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".panel" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/6bb5ddd6-d7a9-4b07-a241-2df229c15ab6/car-3.png);" type="button" class="mid_filter_item_content_filter w-button">Panel</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".blindado" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/b858cea6-3f4f-4dd8-902b-97756095c211/car-4.png);" type="button" class="mid_filter_item_content_filter w-button">Blindado</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".suv" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/9f60657c-d9d3-4b2d-85eb-37753c6ac0ea/car-5.png);" type="button" class="mid_filter_item_content_filter w-button">SUV</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".sedan" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/79e154ad-2f7e-438a-9059-6702165b5c01/car-6.png);" type="button" class="mid_filter_item_content_filter w-button">Sedán</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".camioneta" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/5d5e80ad-d49b-41e3-adb3-ccd210fe9bca/car-7.png);" type="button" class="mid_filter_item_content_filter w-button">Camioneta</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".bus" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/57126a4a-470e-49f4-9c37-e39dc5b07494/car-8.png);" type="button" class="mid_filter_item_content_filter w-button">Bus</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".camion" data-group="group1" data-name="filter-tipo" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/1d302515-0178-4cda-a3d6-11d7064149a2/car-9.png);" type="button" class="mid_filter_item_content_filter w-button">Camión</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mid_filter_item">
+                            <div class="mid_filter_item_heading">
+                                <button id="mid_filter_brand_button" type="button" class="mid_filter_item_heading_title w-button">Marca</button>
+                            </div>
+                            <div class="mid_filter_item_content mid_filter_item_content--100">
+                                <div class="c-mid_filter_item_content c-mid_filter_item_content--100">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".isuzu" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Isuzu</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".changan" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Changan</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".volskwagen" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Volskwagen</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".bmw" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">BMW</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".honda" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Honda</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".ford" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Ford</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".renault" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Renault</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".subaru" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Subaru</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".audi" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Audi</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".chevrolet" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Chevrolet</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".hyundai" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Hyundai</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".kia" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">KIA</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".lexus" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Lexus</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".mazda" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Mazda</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".toyota" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Toyota</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".mitsubishi" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Mitsubishi</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".nissan" data-group="group1" data-name="filter-marca" data-mode="radio" type="button" class="mid_filter_item_content_filter_text w-button">Nissan</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mid_filter_item">
+                            <div class="mid_filter_item_heading">
+                                <button id="mid_filter_transm_button" type="button" class="mid_filter_item_heading_title w-button">Transmisión</button>
+                            </div>
+                            <div class="mid_filter_item_content mid_filter_item_content--100">
+                                <div class="c-mid_filter_item_content jplist-group">
+                                    <label class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
+                                        <input data-jplist-control="checkbox-path-filter" data-path=".automatico" data-or="gender" data-group="group1" data-name="filter-transmisione" type="checkbox" class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100">
+                                        <span class="chechkbox-label-filtro w-form-label" for="checkbox">Automático</span>
+                                    </label>
+                                    <label class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
+                                        <input data-jplist-control="checkbox-path-filter" data-path=".mecanico" data-or="gender" data-group="group1" data-name="filter-transmisione" type="checkbox" class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100">
+                                        <span class="chechkbox-label-filtro w-form-label" for="checkbox">Mecánico</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button title="Filtros" type="button" id="filtros" class="filter__button">
+                        <img src="voptional/source/assets/img/fav-icon32x32.png" loading="lazy" alt="" class="filter_icon">
+                    </button>
+                    <!-- <input type="submit" class="cta-ver-resultado cta-ver-resultado--home" value="Buscar1"> -->
+                    <div class="seis-filtros-desktop">
+                        <div class="top-filtros">
+                            <button type="button" class="close-link w-inline-block">
+                                <img src="voptional/source/assets/img/fav-icon32x32.png" loading="lazy" width="21">
+                            </button>
+                            <div class="titulo-filtros">Filtros</div>
+                            <button type="button" data-jplist-control="reset" data-group="group1" data-name="reset" class="link-limpiar">Limpiar</button>
+                        </div>
+                        <div class="bottom-filtros w-clearfix">
+                            <a href="#" id="ubicacion" class="cta-filtro">Ubicación</a>
+                            <a href="#" id="ordenar" class="cta-filtro">Ordernar</a>
+                            <a href="#" id="anio" class="cta-filtro">Año</a>
+                            <div class="filtro-ubicacion">
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-sucursale" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location w-button">Todos</button>
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-roosevelt" data-group="group1" data-name="filter-sucursale" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location w-button">Agencia Roosevelt</button>
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-yurrita" data-group="group1" data-name="filter-sucursale" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location w-button">Agencia Yurrita</button>
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-arrazola" data-group="group1" data-name="filter-sucursale" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location w-button">Agencia Arrazola</button>
+                            </div>
+                            <div class="filtro-ordenar w-clearfix">
+                                <div class="content-filtro-ordenar">
+                                    <label class="w-checkbox checkbox-filtro checkbox-filtro--order  w-clearfix">
+                                        <input data-id="new" data-jplist-control="checkbox-sort" data-path=".anio" data-group="group1" data-order="desc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro">
+                                        <span class="chechkbox-label-filtro w-form-label" for="checkbox">Lo más nuevo</span>
+                                    </label>
+                                    <label class="w-checkbox checkbox-filtro checkbox-filtro--order w-clearfix">
+                                        <input data-id="lower" data-jplist-control="checkbox-sort" data-path=".precio" data-group="group1" data-order="asc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro">
+                                        <span class="chechkbox-label-filtro w-form-label" for="checkbox-3">Precio más bajo</span>
+                                    </label>
+                                    <label class="w-checkbox checkbox-filtro checkbox-filtro--order w-clearfix">
+                                        <input data-id="higher" data-jplist-control="checkbox-sort" data-path=".precio" data-group="group1" data-order="desc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro">
+                                        <span class="chechkbox-label-filtro w-form-label" for="checkbox-2">Precio más alto</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="filtro-anio">
+                                <div class="c-anio">
+                                    <div class="barra-filtro">
+                                        <div data-jplist-control="slider-range-filter" data-path=".anio" data-group="group1" data-name="anio-filter" data-min="2008" data-from="1" data-to="2023" data-max="2023">
+                                            <div class="jplist-slider-values">
+                                                <div class="jplist-slider-value">
+                                                    <span id="valueMinYear" data-type="value-1"></span>
+                                                </div>
+                                                <div class="jplist-slider-value">
+                                                    <span id="valueMaxYear" data-type="value-2"></span>
+                                                </div>
+                                            </div>
+                                            <div class="jplist-slider" data-type="slider"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" id="precio" class="cta-filtro">Precio</a>
+                            <a href="#" id="kilometraje" class="cta-filtro">Kilometraje</a>
+                            <a href="#" id="combustible" class="cta-filtro">Combustible</a>
+                            <div class="filtro-precio">
+                                <div class="c-anio">
+                                    <div class="barra-filtro">
+                                        <div data-jplist-control="slider-range-filter" data-path=".precio" data-group="group1" data-name="price-filter" data-min="0" data-from="1" data-to="636890" data-max="636890">
+                                            <div class="jplist-slider-values">
+                                                <div class="jplist-slider-value">
+                                                    <span>Q</span>
+                                                    <span id="valueMinPrice" data-type="value-1"></span>
+                                                </div>
+                                                <div class="jplist-slider-value">
+                                                    <span>Q</span>
+                                                    <span id="valueMaxPrice" data-type="value-2"></span>
+                                                </div>
+                                            </div>
+                                            <div class="jplist-slider" data-type="slider"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filtro-kilometraje">
+                                <div class="c-anio">
+                                    <div class="barra-filtro">
+                                        <div data-jplist-control="slider-range-filter" data-path=".kilometraje" data-group="group1" data-name="kilometraje-filter" data-min="352" data-from="1" data-to="1399555" data-max="1399555">
+                                            <div class="jplist-slider-values">
+                                                <div class="jplist-slider-value">
+                                                    <span id="valueMinMileage" data-type="value-1"></span>
+                                                </div>
+                                                <div class="jplist-slider-value">
+                                                    <span id="valueMaxMileage" data-type="value-2"></span>
+                                                </div>
+                                            </div>
+                                            <div class="jplist-slider" data-type="slider"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filtro-combustible">
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-combustible" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel w-button">Todos</button>
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".gasolina" data-group="group1" data-name="filter-combustible" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel w-button">Gasolina</button>
+                                <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".diesel" data-group="group1" data-name="filter-combustible" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel w-button">Diesel</button>
+                            </div>
+                        </div>
+                        <div class="content-cta-filtro">
+                            <input type="submit" class="cta-ver-resultado" value="Buscar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <section class="overlay-filtros">
         <div class="conten-filtros-movil">
             <div class="contenedor">
@@ -189,37 +381,7 @@
             </div>
         </div>
     </section>
-    <script src="/js/catalogo/index.js"></script>
-    <section class="jc_sec_slide wf-section" data-aos="fade-up" data-aos-duration="1000">
-        <div class="jc_container_g">
-            <div data-delay="2500" data-animation="slide" class="slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
-                <div class="mascara_slide w-slider-mask">
-                    <div class="jc_slides w-slide">
-                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/3e003a07-28f9-4515-90dd-a199ec261276/1.png');"></div>
-                    </div>
-                    <div class="jc_slides w-slide">
-                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/0789d1fc-c572-439f-9621-34f7ab35d3e3/3.3png.png');"></div>
-                    </div>
-                    <div class="jc_slides w-slide">
-                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/fc98a2f6-44d1-47ae-a584-388399a93b93/4.4.png');"></div>
-                    </div>
-                    <div class="jc_slides w-slide">
-                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/1dc7bbb1-175e-435b-95e1-1a2996256b8b/2.2.png');"></div>
-                    </div>
-                    <div class="jc_slides w-slide">
-                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/381ac26f-a6b4-47da-ace7-9a9eea297ba3/BANNER 5.jpg');"></div>
-                    </div>
-                </div>
-                <div class="left-arrow w-slider-arrow-left">
-                    <div class="icon w-icon-slider-left"></div>
-                </div>
-                <div class="right-arrow w-slider-arrow-right">
-                    <div class="icon-2 w-icon-slider-right"></div>
-                </div>
-                <div class="slide-nav w-slider-nav w-round"></div>
-            </div>
-        </div>
-    </section>
+
     <section class="jc_sec_ingresos wf-section">
         <div class="contenedor">
             <div class="jc_cont_titul_cta w-clearfix">
