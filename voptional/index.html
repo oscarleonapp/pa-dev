@@ -18,47 +18,558 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
-        <div class="menu_center w-clearfix">
-            <div class="container_logo">
-                <a href="https://portalautomotriz.com.gt/" class="jc_cta_logo w-inline-block">
-                    <img src="source/assets/img/logo-pa.png" loading="lazy" alt="Portal Automotriz" class="logo">
-                </a>
-            </div>
-            <div class="container_menu w-clearfix">
-                <a href="#" class="text_link_menu">Motos</a>
-                <a href="#" class="text_link_menu">Autos</a>
-                <a href="#" class="text_link_menu">Inicio</a>
-            </div>
-            <div class="container_info">
-                <a title="PBX: 2336-8060" target="_blank" rel="noopener" href="tel:+50223368060" class="cont_pbx">
-                    <img src="source/assets/img/pbx-pa.png" loading="lazy" alt="PBX: 23368060">
-                </a>
-                <a title="WhatsApp" rel="noopener" target="_blank" href="https://api.whatsapp.com/send?phone=50242100854" class="cta_whats w-inline-block">
-                    <img src="https://cofalusados.com/images/whatsapp-1.png" loading="lazy" alt="">
-                </a>
-            </div>
-            <div class="filter__button menu__open">
-                <img src="https://cofalusados.com/images/icon-menu.png" loading="lazy" alt="" class="toggle">
-            </div>
-            <div class="filter__button menu__open" id="toggle__mobile">
-                <img src="https://cofalusados.com/images/icon-menu.png" loading="lazy" alt="" class="toggle">
-            </div>
-        </div>
-        <div class="container_menu var w-clearfix">
-            <div class="container_menu__heading">
-                <div class="container_menu__heading_text">Menú</div>
-                <button id="toggle_mobile_close" type="button" class="container_menu__heading_close">
-                    <img src="https://cofalusados.com/images/cloase.png" loading="lazy" alt="" class="toggle">
-                </button>
-            </div>
-            <a href="#" class="text_link_menu">Motos</a>
-            <a href="#" class="text_link_menu">Autos</a>
-            <a href="#" class="text_link_menu">Inicio</a>
-        </div>
-    </header>
-    <main class="main box jplist" id="filtro_carros">
 
-    </main>
+    <section class="overlay-filtros">
+        <div class="conten-filtros-movil">
+            <div class="contenedor">
+                <div class="formulario_filtros">
+                    <form action="https://cofalusados.com/catalogo" id="formFiltrosMovilSubmit" method="get" class="form-filtros">
+                        <input class="input-hidden" id="inputSearchNameMobile" type="text" name="name" value="">
+                        <input class="input-hidden" id="inputSearchTypeMobile" type="text" name="typeMobile" value="">
+                        <input class="input-hidden" id="inputSearchBrandMobile" type="text" name="brandMobile" value="">
+                        <input class="input-hidden" id="inputSearchTransmissionMobile" type="text" name="transmissionMobile" value="">
+                        <input class="input-hidden" id="inputSearchLocationMobile" type="text" name="locationMobile" value="">
+                        <input class="input-hidden" id="inputSearchOrderMobile" type="text" name="orderMobile" value="">
+                        <input class="input-hidden" id="inputSearchMinYearMobile" type="text" name="minYearMobile" value="">
+                        <input class="input-hidden" id="inputSearchMaxYearMobile" type="text" name="maxYearMobile" value="">
+                        <input class="input-hidden" id="inputSearchMinPriceMobile" type="text" name="minPriceMobile" value="">
+                        <input class="input-hidden" id="inputSearchMaxPriceMobile" type="text" name="maxPriceMobile" value="">
+                        <input class="input-hidden" id="inputSearchMinMileageMobile" type="text" name="minMileageMobile" value="">
+                        <input class="input-hidden" id="inputSearchMaxMileageMobile" type="text" name="maxMileageMobile" value="">
+                        <input class="input-hidden" id="inputSearchFuelMobile" type="text" name="fuelMobile" value="">
+                        <div class="seis-filtros-movil">
+                            <div class="top-filtros">
+                                <button type="button" class="close-link w-inline-block">
+                                    <img src="images/close-icon.png" loading="lazy" width="21">
+                                </button>
+                                <div class="titulo-filtros">Filtros</div>
+                                <button type="button" data-jplist-control="reset" data-group="group1" data-name="reset" class="link-limpiar">Limpiar</button>
+                            </div>
+                            <div class="bottom-filtros w-clearfix">
+                                <button type="button" id="tipo-movil" class="cta-filtro">Tipo</button>
+                                <div class="filtro-tipo">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" type="button" class="tipo-car tipo-car--type-mobile w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".hatchback" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/80949335-29d9-46a7-ab8d-d2d002ff5ad6/car-1.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Hatchback</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".pickup" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/f3d2fea2-f418-4888-a7d9-97baeab87414/car-2.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Pickup</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".panel" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/6bb5ddd6-d7a9-4b07-a241-2df229c15ab6/car-3.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Panel</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".blindado" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/b858cea6-3f4f-4dd8-902b-97756095c211/car-4.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Blindado</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".suv" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/9f60657c-d9d3-4b2d-85eb-37753c6ac0ea/car-5.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">SUV</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".sedan" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/79e154ad-2f7e-438a-9059-6702165b5c01/car-6.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Sedán</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".camioneta" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/5d5e80ad-d49b-41e3-adb3-ccd210fe9bca/car-7.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Camioneta</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".bus" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/57126a4a-470e-49f4-9c37-e39dc5b07494/car-8.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Bus</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".camion" data-group="group1" data-name="filter-tipo-movil" data-mode="radio" style="background-image: url(https://cofalusados.com/backstage/files/tipos/image/1d302515-0178-4cda-a3d6-11d7064149a2/car-9.png);" type="button" class="tipo-car tipo-car--type-mobile w-button">Camión</button>
+                                </div>
+                                <button type="button" id="marca-movil" class="cta-filtro">Marca</button>
+                                <div class="filtro-marca">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".isuzu" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Isuzu</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".changan" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Changan</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".volskwagen" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Volskwagen</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".bmw" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">BMW</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".honda" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Honda</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".ford" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Ford</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".renault" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Renault</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".subaru" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Subaru</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".audi" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Audi</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".chevrolet" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Chevrolet</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".hyundai" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Hyundai</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".kia" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">KIA</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".lexus" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Lexus</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".mazda" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Mazda</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".toyota" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Toyota</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".mitsubishi" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Mitsubishi</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".nissan" data-group="group1" data-name="filter-marca-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--brand-mobile w-button">Nissan</button>
+                                </div>
+                                <button type="button" id="transmision-movil" class="cta-filtro">Transmisión</button>
+                                <div class="filtro-transmision w-clearfix">
+                                    <div class="content-filtro-ordenar">
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
+                                            <input data-jplist-control="checkbox-path-filter" data-path=".automatico" data-or="gender" data-group="group1" data-name="filter-transmisione-movil" type="checkbox" class="w-checkbox-input checkbox-item-filtro">
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox">Automático</span>
+                                        </label>
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
+                                            <input data-jplist-control="checkbox-path-filter" data-path=".mecanico" data-or="gender" data-group="group1" data-name="filter-transmisione-movil" type="checkbox" class="w-checkbox-input checkbox-item-filtro">
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox">Mecánico</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="button" id="ubicacion-movil" class="cta-filtro">Ubicación</button>
+                                <div class="filtro-ubicacion">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-sucursale-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location-mobile w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-roosevelt" data-group="group1" data-name="filter-sucursale-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location-mobile w-button">Agencia Roosevelt</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-yurrita" data-group="group1" data-name="filter-sucursale-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location-mobile w-button">Agencia Yurrita</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".agencia-arrazola" data-group="group1" data-name="filter-sucursale-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--location-mobile w-button">Agencia Arrazola</button>
+                                </div>
+                                <button type="button" id="ordenar-movil" class="cta-filtro">Ordernar</button>
+                                <div class="filtro-ordenar w-clearfix">
+                                    <div class="content-filtro-ordenar">
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                            <input data-id="new" data-jplist-control="checkbox-sort" data-path=".anio" data-group="group1" data-order="desc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro" id="checkbox-new">
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox-new">Lo más nuevo</span>
+                                        </label>
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                            <input data-id="lower" data-jplist-control="checkbox-sort" data-path=".precio" data-group="group1" data-order="asc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro" id="checkbox-lower">
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox-lower">Precio más bajo</span>
+                                        </label>
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                            <input data-id="higher" data-jplist-control="checkbox-sort" data-path=".precio" data-group="group1" data-order="desc" data-type="number" type="checkbox" class="w-checkbox-input checkbox-item-filtro" id="checkbox-higher">
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox-higher">Precio más alto</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="button" id="anio-movil" class="cta-filtro">Año</button>
+                                <div class="filtro-anio">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".anio" data-group="group1" data-name="anio-filter-movil" data-min="2008" data-from="1" data-to="2023" data-max="2023">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMinYearMobile" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMaxYearMobile" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" id="precio-movil" class="cta-filtro">Precio</button>
+                                <div class="filtro-precio">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".precio" data-group="group1" data-name="price-filter-movil" data-min="0" data-from="1" data-to="636890" data-max="636890">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span>Q</span>
+                                                        <span id="valueMinPriceMobile" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span>Q</span>
+                                                        <span id="valueMaxPriceMobile" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" id="kilo-movil" class="cta-filtro">Kilometraje</button>
+                                <div class="filtro-kilometraje">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".kilometraje" data-group="group1" data-name="kilometraje-filter-movil" data-min="352" data-from="1" data-to="1399555" data-max="1399555">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMinMileageMobile" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMaxMileageMobile" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" id="com-movil" class="cta-filtro">Combustible</button>
+                                <div class="filtro-combustible">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path="default" data-group="group1" data-name="filter-combustible-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel-mobile w-button">Todos</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".gasolina" data-group="group1" data-name="filter-combustible-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel-mobile w-button">Gasolina</button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter" data-path=".diesel" data-group="group1" data-name="filter-combustible-movil" data-mode="radio" type="button" class="agencia-filtro agencia-filtro--fuel-mobile w-button">Diesel</button>
+                                </div>
+                            </div>
+                            <div class="content-cta-filtro">
+                                <input type="submit" class="cta-ver-resultado" value="Buscar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/catalogo/index.js"></script>
+    <section class="jc_sec_slide wf-section" data-aos="fade-up" data-aos-duration="1000">
+        <div class="jc_container_g">
+            <div data-delay="2500" data-animation="slide" class="slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                <div class="mascara_slide w-slider-mask">
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/3e003a07-28f9-4515-90dd-a199ec261276/1.png');"></div>
+                    </div>
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/0789d1fc-c572-439f-9621-34f7ab35d3e3/3.3png.png');"></div>
+                    </div>
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/fc98a2f6-44d1-47ae-a584-388399a93b93/4.4.png');"></div>
+                    </div>
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/1dc7bbb1-175e-435b-95e1-1a2996256b8b/2.2.png');"></div>
+                    </div>
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('https://cofalusados.com/backstage/files/sliders/image/381ac26f-a6b4-47da-ace7-9a9eea297ba3/BANNER 5.jpg');"></div>
+                    </div>
+                </div>
+                <div class="left-arrow w-slider-arrow-left">
+                    <div class="icon w-icon-slider-left"></div>
+                </div>
+                <div class="right-arrow w-slider-arrow-right">
+                    <div class="icon-2 w-icon-slider-right"></div>
+                </div>
+                <div class="slide-nav w-slider-nav w-round"></div>
+            </div>
+        </div>
+    </section>
+    <section class="jc_sec_ingresos wf-section">
+        <div class="contenedor">
+            <div class="jc_cont_titul_cta w-clearfix">
+                <div data-aos="fade-right" data-aos-duration="1000" class="jc_titul_ingresos">Nuevos ingresos</div>
+                <a data-aos="fade-left" data-aos-duration="1000" href="catalogo.html" class="jc_cta_ver_ingre">Ver todos</a>
+            </div>
+            <div class="content-catalogo">
+                <div class="content-catalogo">
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/7cba03ef-e822-439c-bc06-cab790f9d9de/8505-HYUNDAI-I10G-2023-ROJO-P922KCC-WEB-15.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">
+                                        Q. 116,636.80<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">HYUNDAI I10 2023 - 8505</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8505</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1200</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Mecánico</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">352 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/810dfa70-b8c9-476b-ab60-aad40bab1669/8481-HYUNDAI-CRETA-2019-AZUL-P967JLS-WEB-13.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">Q. 150,750.00</div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">HYUNDAI CRETA 2019 - 8481</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8481</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1600</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Automático</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">62393 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/6d8c1a3d-634e-4883-9287-ec6e6d0a1287/8479-VOLKSWAGEN-SAVEIRO-2023-BLANCO-P595KCB-WEB-13.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">
+                                        Q. 135,766.40<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">VOLKSWAGEN SAVEIRO 2023 - 8479</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8479</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1600</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Mecánico</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">2315 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/0b1f522e-2525-4d9b-a180-263257838832/8454-KIA-PICANTO-2023-GRIS-P386JWC-WEB-12.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">
+                                        Q. 121,732.80<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">KIA PICANTO EX 2023 - 8454</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8454</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1200</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Automático</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">8755 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Arrazola</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/e645c94b-8f01-4ae3-b6b1-2712e2cba7c4/8437-TOYOTA-YARIS-2022-PLATEADO-P506JPH-WEB-15.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">
+                                        Q. 137,816.00<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">TOYOTA YARIS 2022 - 8437</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8437</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1496</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Automático</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">47226 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
+                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403">
+                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/c714faec-78ef-4169-b494-baac1a9b30c2/8403-KIA-RIO-2017-PLATEADO-P190GGB-WEB-14.jpg');">
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">Q. 91,420.00</div>
+                                </div>
+                            </div>
+                            <div class="c-nombre">
+                                <div class="name-col-catalogo">KIA RIO LX 2017 - 8403</div>
+                            </div>
+                        </a>
+                        <div class="info-car-col-catalogo">
+                            <div class="items-col-catalogo">
+                                <div class="items-top-col">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">8403</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">1400</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <div class="txt-icon">Automático</div>
+                                    </div>
+                                </div>
+                                <div class="items-top-col bottom">
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/km.png" loading="lazy" alt="">
+                                        <div class="txt-icon">128443 Km</div>
+                                    </div>
+                                    <div class="line-items"></div>
+                                    <div class="icons-txt-col-cat">
+                                        <img src="images/pin-web.png" loading="lazy" alt="">
+                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403" class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <div class="content-dos-cta w-clearfix">
+                                    <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#cita" class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="jc_cont_financiamientos">
+                    <div class="jc_cont_titul_finan">
+                        <div class="jc_txt_titul_finan">Contamos con los mejores planes de financiamiento.</div>
+                    </div>
+                    <div class="jc_cont_logos_finan">
+                        <div class="jc_cta_icon_finan w-inline-block">
+                            <img src="images/icon_bi.png" loading="lazy" alt="">
+                        </div>
+                        <div class="jc_cta_icon_finan w-inline-block">
+                            <img src="images/icon_bac.png" loading="lazy" alt="">
+                        </div>
+                        <div class="jc_cta_icon_finan w-inline-block">
+                            <img src="images/icon_gyt.png" loading="lazy" alt="">
+                        </div>
+                        <div class="jc_cta_icon_finan w-inline-block">
+                            <img src="images/icon_bam.png" loading="lazy" alt="">
+                        </div>
+                        <div class="jc_cta_icon_finan w-inline-block">
+                            <img src="images/icon_arr.png" loading="lazy" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <script src="/js/libraries/jplist/jplist.min.js"></script>
+    <script>
+        jplist.init();
+    </script>
 </body>
 </html>
