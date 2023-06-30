@@ -53,12 +53,24 @@ body {
   text-align: right;
 }
 
+.container_menu a {
+  /* display: flex; */
+  /* background-color: #001e32; */
+  margin-left: 12px;
+  /* margin-right: 12px; */
+  border-radius: 10px;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
 .text_link_menu {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 5px 20px 5px 0px;
   float: right;
+  text-align: center;
+  justify-content: center;
   font-family: Barlow, sans-serif;
-  color: #14355b;
+  color: #001e32;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
@@ -95,6 +107,7 @@ body {
 }
 
 .main {
+  margin-top: 12px;
   display: inline-block;
   width: 100%;
   padding-top: 100px;
@@ -109,6 +122,7 @@ body {
   padding-right: 25px;
   padding-bottom: 20px;
   padding-left: 25px;
+  margin-top: 16px;
 }
 
 .jc_sec_slide {
