@@ -2271,7 +2271,8 @@ input[type="submit"]:disabled {
   }
 }
 
-@media screen and (max-width: 479px) {
+/* Antes 479 */
+@media screen and (max-width: 549px) {
 
   .jc_titul_ingresos {
     font-size: 16px;
