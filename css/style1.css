@@ -103,6 +103,11 @@ body {
   transition: opacity 0.2s;
 }
 
+.container_info .cont_pbx {
+  text-decoration: none;
+  color: #000;
+}
+
 .cont_pbx:hover {
   opacity: 0.8;
 }
