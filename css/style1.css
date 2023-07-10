@@ -90,7 +90,11 @@ body {
   /* border: 1px solid #b9b9b9; */
   border-radius: 4px;
   transition: opacity 0.2s;
-  width: 48px;
+}
+
+.cta_whats img {
+  width: 24px;
+  height: 24px;
 }
 
 .cta_whats:hover {
