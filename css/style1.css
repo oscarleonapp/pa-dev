@@ -203,7 +203,8 @@ body {
 
 .mascara_slide {
   height: auto;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  padding-top: 90px;
 }
 
 .icon {
