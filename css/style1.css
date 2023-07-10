@@ -87,9 +87,10 @@ body {
 
 .cta_whats {
   padding: 6px 10px;
-  border: 1px solid #b9b9b9;
+  /* border: 1px solid #b9b9b9; */
   border-radius: 4px;
   transition: opacity 0.2s;
+  width: 48px;
 }
 
 .cta_whats:hover {
@@ -100,6 +101,11 @@ body {
   display: inline-block;
   padding-right: 10px;
   transition: opacity 0.2s;
+}
+
+.container_info .cont_pbx {
+  text-decoration: none;
+  color: #000;
 }
 
 .cont_pbx:hover {
