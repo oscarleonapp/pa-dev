@@ -244,14 +244,15 @@ body {
 .jc_cta_ver_ingre {
   padding: 10px 20px;
   float: right;
-  border: 1px solid #0270bb;
+  border: 1px solid #fff;
   border-radius: 22.5px;
   font-family: Barlow, sans-serif;
-  color: #0270bb;
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   transition: 0.2s;
+  background-color: #008CE6;
 }
 
 .jc_cta_ver_ingre:hover {
