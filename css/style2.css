@@ -1,3 +1,12 @@
+root {
+  --titulo: #001e32;
+  --subtitulos: #000000;
+  --background1: #008CE6;
+  --background2: #5AC8E6;
+  --blanco: #FFFFFF;
+  --negro: #000000;
+}
+
 /* .background-section {
   background-color: #001e32;
 } */
@@ -161,7 +170,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 100%;
   height: 45px;
   padding-right: 10px;
   float: right;
@@ -173,8 +182,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top-left-radius: 30px;
-  background-color: #0270bb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #001e32;
   font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 20px;
@@ -283,7 +293,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 20px;
-  background-color: #0d2744;
+  background-color: #001e32;
   font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 15px;
@@ -294,7 +304,7 @@
 }
 
 .cta-cuotas-catalogo:hover {
-  background-color: #0163a5;
+  background-color: #008CE6;
 }
 
 .cta-test-catalogo {
