@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   width: 100%;
-  background-color: #f0f2f5;
+  background-color: #fff;
 }
 
 .header {
@@ -45,7 +45,7 @@ body {
 .container_logo {
   position: relative;
   display: inline;
-  width: 18%;
+  width: 20%;
 }
 
 .container_info {
@@ -59,23 +59,30 @@ body {
   /* background-color: #001e32; */
   margin-left: 12px;
   /* margin-right: 12px; */
-  border-radius: 10px;
+  border-radius: 8px;
   /* text-align: center; */
   /* align-items: center; */
 }
 
+/* .nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .text_link_menu {
-  /* display: inline-block; */
-  padding: 5px 20px 5px 0px;
+  /* text-align: center; */
+  padding: 5px 10px 5px 10px;
   float: right;
   text-align: center;
   justify-content: center;
   font-family: Barlow, sans-serif;
-  color: #001e32;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
+  background-color: #001e32;
 }
 
 .text_link_menu.w--current {
@@ -203,7 +210,7 @@ body {
 
 .mascara_slide {
   height: auto;
-  /* border-radius: 10px; */
+  border-radius: 10px;
   padding-top: 90px;
 }
 
@@ -238,7 +245,7 @@ body {
   font-size: 18px;
   line-height: 45px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .jc_cta_ver_ingre {
@@ -252,7 +259,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition: 0.2s;
-  background-color: #008CE6;
+  background-color: #001e32;
 }
 
 .jc_cta_ver_ingre:hover {
@@ -283,18 +290,18 @@ body {
   height: 205px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: url("../images/img_car_one.png");
+  /* background-image: url("../images/img_car_one.png"); */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .jc_cont_img_card._2 {
-  background-image: url("../images/img_car_2.png");
+  /* background-image: url("../images/img_car_2.png"); */
 }
 
 .jc_cont_img_card._3 {
-  background-image: url("../images/img_car_3.png");
+  /* background-image: url("../images/img_car_3.png"); */
 }
 
 .jc_cont_titulo_card {
@@ -509,10 +516,26 @@ body {
 .jc_txt_titul_finan {
   font-family: Barlow, sans-serif;
   color: #14355b;
-  font-size: 22px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
+}
+
+.creditos_footer {
+  font-family: Barlow, sans-serif;
+  color: #14355b;
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.oscarleon {
+  color: #79c6fb;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .jc_cont_logos_finan {
@@ -1252,25 +1275,24 @@ body {
 }
 
 .fab-message {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: #14355b;
+  background-color: #fff;
   position: fixed;
   right: 2%;
   bottom: 2%;
-  background-image: url("../images/msg.png");
+  background-image: url("../source/img/iconos/whatsappicon.png");
   background-repeat: no-repeat;
-  background-size: 40px;
   background-position: 50%;
-  background-size: 40px;
-  box-shadow: 0px 0px 10px rgb(0 0 0 / 40%);
+  background-size: 35px;
+  box-shadow: 0px 0px 3px rgb(0 0 0 / 13%);
   z-index: 1;
   transition: background-color 0.2s;
 }
 
 .fab-message:hover {
-  background-color: #0e5ded;
+  background-color: #eee;
 }
 
 #toggle__mobile {
@@ -1518,6 +1540,10 @@ a.arrow_slider.w-inline-block,
 .checkbox-item-filtro.checkbox-item-filtro--100 {
   margin-left: auto;
   margin-right: 0;
+}
+
+.jc_cta_logo_f {
+  width: 120px;
 }
 
 .jc_cta_logo_f {
