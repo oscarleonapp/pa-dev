@@ -258,7 +258,7 @@ body {
 }
 
 .jc_titul_ingresos {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   font-family: Barlow, sans-serif;
   color: #00030b;
@@ -316,13 +316,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.jc_cont_img_card._2 {
-  /* background-image: url("../images/img_car_2.png"); */
+/* .jc_cont_img_card._2 {
+  background-image: url("../images/img_car_2.png");
 }
 
 .jc_cont_img_card._3 {
-  /* background-image: url("../images/img_car_3.png"); */
-}
+  background-image: url("../images/img_car_3.png");
+} */
 
 .jc_cont_titulo_card {
   padding-top: 20px;
@@ -1056,7 +1056,7 @@ body {
 }
 
 .submit {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 12px 60px;
   float: right;
   border-radius: 50px;
