@@ -21,7 +21,7 @@ html::-webkit-scrollbar-thumb {
 body {
   overflow-x: hidden;
   width: 100%;
-  background-color: #fff;
+  background-color: #F8F9FA;
 }
 
 .header {
@@ -97,12 +97,12 @@ body {
   text-align: center;
   justify-content: center;
   font-family: Barlow, sans-serif;
-  color: #fff;
+  color: #001e32;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
-  background-color: #001e32;
+  background-color: #F8F9FA;
 }
 
 .text_link_menu.w--current {
