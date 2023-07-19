@@ -77,13 +77,6 @@ root {
   height: 100%;
 }
 
-.img-col-catalogo._2 {
-  background-image: url("../images/img_car_2.png");
-}
-
-.img-col-catalogo._3 {
-  background-image: url("../images/img_car_3.png");
-}
 
 .col-catalogo-link {
   display: block;
@@ -173,7 +166,7 @@ root {
   display: flex;
   width: 70%;
   height: 25px;
-  padding-right: 10px;
+  padding-left: 10px;
   float: left;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-start;
