@@ -130,7 +130,10 @@
                         <input class="input-hidden" id="inputSearchMaxMileage" type="text" name="maxMileage" value="" />
                         <input class="input-hidden" id="inputSearchFuel" type="text" name="fuel" value="" />
                         <div class="mid__filter w-clearfix">
+
+                            <!-- ##### FILTRO POR TIPO ##### -->
                             <div class="mid_filter_item">
+
                                 <div class="mid_filter_item_heading">
                                     <button type="button" class="mid_filter_item_heading_title w-button">
                                         Tipo de auto
@@ -144,6 +147,39 @@
                                             class="mid_filter_item_content_filter w-button">
                                             Todos
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".blindado" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/b858cea6-3f4f-4dd8-902b-97756095c211/car-4.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Blindado
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bus" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/57126a4a-470e-49f4-9c37-e39dc5b07494/car-8.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Bus
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camion" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/1d302515-0178-4cda-a3d6-11d7064149a2/car-9.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Camión
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camioneta" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/5d5e80ad-d49b-41e3-adb3-ccd210fe9bca/car-7.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Camioneta
+                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".hatchback" data-group="group1" data-name="filter-tipo"
                                             data-mode="radio" style="
@@ -151,6 +187,15 @@
                           " type="button" class="mid_filter_item_content_filter w-button">
                                             Hatchback
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".panel" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/6bb5ddd6-d7a9-4b07-a241-2df229c15ab6/car-3.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Panel
+                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".pickup" data-group="group1" data-name="filter-tipo"
                                             data-mode="radio" style="
@@ -158,20 +203,15 @@
                           " type="button" class="mid_filter_item_content_filter w-button">
                                             Pickup
                                         </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".panel" data-group="group1" data-name="filter-tipo"
+                                            data-path=".sedan" data-group="group1" data-name="filter-tipo"
                                             data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/6bb5ddd6-d7a9-4b07-a241-2df229c15ab6/car-3.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Panel
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/79e154ad-2f7e-438a-9059-6702165b5c01/car-6.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Sedán
                                         </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".blindado" data-group="group1" data-name="filter-tipo"
-                                            data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/b858cea6-3f4f-4dd8-902b-97756095c211/car-4.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Blindado
-                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".suv" data-group="group1" data-name="filter-tipo"
                                             data-mode="radio" style="
@@ -179,37 +219,12 @@
                           " type="button" class="mid_filter_item_content_filter w-button">
                                             SUV
                                         </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".sedan" data-group="group1" data-name="filter-tipo"
-                                            data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/79e154ad-2f7e-438a-9059-6702165b5c01/car-6.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Sedán
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".camioneta" data-group="group1" data-name="filter-tipo"
-                                            data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/5d5e80ad-d49b-41e3-adb3-ccd210fe9bca/car-7.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Camioneta
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".bus" data-group="group1" data-name="filter-tipo"
-                                            data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/57126a4a-470e-49f4-9c37-e39dc5b07494/car-8.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Bus
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".camion" data-group="group1" data-name="filter-tipo"
-                                            data-mode="radio" style="
-                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/1d302515-0178-4cda-a3d6-11d7064149a2/car-9.png);
-                          " type="button" class="mid_filter_item_content_filter w-button">
-                                            Camión
-                                        </button>
+
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- ##### FILTRO POR MARCA ##### -->
                             <div class="mid_filter_item">
                                 <div class="mid_filter_item_heading">
                                     <button type="button" class="mid_filter_item_heading_title w-button">
@@ -224,108 +239,126 @@
                                             class="mid_filter_item_content_filter_text w-button">
                                             Todos
                                         </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".isuzu" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Isuzu
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".changan" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Changan
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".volskwagen" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Volskwagen
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".bmw" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            BMW
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".honda" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Honda
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".ford" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Ford
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".renault" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Renault
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".subaru" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Subaru
-                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".audi" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Audi
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bmw" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            BMW
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".changan" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Changan
+                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".chevrolet" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Chevrolet
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".ford" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Ford
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".honda" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Honda
+                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".hyundai" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Hyundai
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".isuzu" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Isuzu
+                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".kia" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             KIA
                                         </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".lexus" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Lexus
                                         </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".mazda" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Mazda
                                         </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".toyota" data-group="group1" data-name="filter-marca"
-                                            data-mode="radio" type="button"
-                                            class="mid_filter_item_content_filter_text w-button">
-                                            Toyota
-                                        </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".mitsubishi" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Mitsubishi
                                         </button>
+
                                         <button data-selected="false" data-jplist-control="buttons-text-filter"
                                             data-path=".nissan" data-group="group1" data-name="filter-marca"
                                             data-mode="radio" type="button"
                                             class="mid_filter_item_content_filter_text w-button">
                                             Nissan
                                         </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".renault" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Renault
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".subaru" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Subaru
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".toyota" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Toyota
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".volskwagen" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Volskwagen
+                                        </button>
+
                                     </div>
                                 </div>
                             </div>
