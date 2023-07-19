@@ -1709,7 +1709,7 @@ root {
 .pagination-items [data-type="first"],
 .pagination-items [data-type="last"] {
   border: 1px solid transparent;
-  background-color: #0270bb;
+  background-color: #001e32;
   border-radius: 50%;
   color: #fff;
   display: flex;
@@ -1750,7 +1750,7 @@ root {
 
 .pagination-items [data-type="page"] {
   align-items: center;
-  background-color: #0270bb;
+  background-color: #5AC8E6;
   border-radius: 50%;
   color: #fff;
   display: flex;
