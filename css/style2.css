@@ -455,11 +455,14 @@ root {
   display: inline-block;
   margin-right: 3px;
   font-family: Barlow, sans-serif;
-  color: #0270bb;
+  color: #001e32;
   font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
+  background-color: #e9e9e9;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
 }
 
 .link-breadcrumb:hover {
@@ -588,18 +591,21 @@ root {
   display: flex;
   padding: 15px 5px 14px;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  /* -webkit-justify-content: space-between; */
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #77838f;
+  /* background-color: #fff; */
+  border-radius: 10px 10px 10px 10px;
 }
 
 .titulos-info {
   margin-right: 5px;
   font-family: Barlow, sans-serif;
-  color: #5b5b5c;
+  color: #001e32;
   font-size: 18px;
   font-weight: 500;
+
 }
 
 .datos-info {
@@ -607,6 +613,12 @@ root {
   color: #292829;
   font-size: 18px;
   font-weight: 500;
+  /* text-align: center; */
+  margin-right: 20px;
+}
+
+.col-info-inter .datos-info {
+  text-align: right;
 }
 
 .datos-info.datos-info--upper {
@@ -655,8 +667,12 @@ root {
 }
 
 .precio-interna {
-  color: #0470bb;
+  color: #001e32;
   font-size: 35px;
+  background-color: #FFFFFF;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
 }
 
 .content-calcular-cuotas {
@@ -665,7 +681,7 @@ root {
   padding-right: 25px;
   padding-left: 25px;
   border-radius: 10px;
-  background-color: #ecf2f6;
+  background-color: #fff;
 }
 
 .titulo-calcular {
@@ -912,7 +928,7 @@ root {
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 30px;
-  background-color: #0470bb;
+  background-color: #001e32;
   font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 16px;
@@ -2462,7 +2478,7 @@ root {
 
   .datos-info {
     font-size: 15px;
-    text-align: right;
+    /* text-align: center; */
   }
 
   .content-calcular-cuotas {
