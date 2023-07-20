@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="../../css/style1.css">
   <link rel="stylesheet" href="../../css/style2.css">
   <link rel="stylesheet" href="../../css/libraries/aos/aos.css">
+  <link rel="stylesheet" href="../../css/360.css">
 
   <!-- SCRIPTS -->
   <script src="../../js/cloudfront.js" type="text/javascript" crossorigin="anonymous"></script>
@@ -115,9 +116,9 @@
               </div>
               <div class="w-slider-mask">
 
-                <div title="Ver imagen" data-fancybox="gallery" href="../../source/img/autos/audi-A3--2016/1.jpg"
+                <div title="Ver imagen" data-fancybox="gallery" href="../../source/img/autos/audi-A3--2016/1v.png"
                   class="slide-catalogo-interna w-slide" style="
-                      background-image: url('../../source/img/autos/audi-A3--2016/1.jpg');
+                      background-image: url('../../source/img/autos/audi-A3--2016/1v.png');
                     "></div>
 
                 <div title="Ver imagen" data-fancybox="gallery" href="../../source/img/autos/audi-A3--2016/2.jpg"
@@ -197,12 +198,17 @@
                 Q. 135,000.00<span style="font-size: 8px; margin-top: 10px; padding-left: 2px">(IVA incluido)</span>
               </span>
             </div>
+
+            <!-- VISTA 360 -->
             <div class="titulo-360">Vista 360° del interior del vehículo</div>
             <div class="vista-360">
-              <iframe
-                src="https://momento360.com/e/u/75af68cc53d14c50b042cae0548b52bb?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true"
-                frameborder="0" allowfullscreen style="width: 100%; height: 100%; min-height: 400px"></iframe>
+              <!-- <iframe
+                src="https://momento360.com/e/u/1f18f9d35da54d27821a3f57b7c367f7?utm_campaign=embed&utm_source=other&heading=346.97&pitch=-10.01&field-of-view=75&size=medium&display-plan=true"
+                frameborder="0" allowfullscreen style="width: 100%; height: 100%; min-height: 400px">
+              </iframe> -->
+              <div id="panorama"></div>
             </div>
+            <!-- VISTA 360 -->
 
             <!-- DETALLES DEL VEHÍCULO -->
             <div class="titulo-info">Detalles del vehículo</div>
@@ -604,8 +610,11 @@
     <script>
       var priceVehicle = 135000;
     </script>
-    <script src="/js/catalogo/view.js?532"></script>
-    <script src="/js/catalogo/add.js?532"></script>
+    <script src="../../js/catalogo/view.js"></script>
+    <script src="../../js/catalogo/add.js"></script>
+    <script src="../../js/360mod.js"></script>
+    <script src="../../js/360.js"></script>
+
   </main>
 
   <script>
