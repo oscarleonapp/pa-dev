@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Automotriz</title>
 
     <!-- FavIcon -->
-    <link href="../source/img/iconos/favicon.png" type="image/x-icon" rel="icon"/>
+    <link href="../source/img/iconos/favicon.png" type="image/x-icon" rel="icon" />
 
     <!-- css -->
-    <link rel="stylesheet" href="../css/estructura.css"/>
-    <link rel="stylesheet" href="../css/webflow.css"/>
-    <link rel="stylesheet" href="../css/style1.css"/>
-    <link rel="stylesheet" href="../css/style2.css"/>
-    <link rel="stylesheet" href="../css/libraries/aos/aos.css"/>
+    <link rel="stylesheet" href="../css/estructura.css" />
+    <link rel="stylesheet" href="../css/webflow.css" />
+    <link rel="stylesheet" href="../css/style1.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
+    <link rel="stylesheet" href="../css/libraries/aos/aos.css" />
 
     <!-- JavaScript -->
-      <script type="text/javascript"> const mainURL = 'https://portalautomotriz.com.gt/';</script>
+    <script type="text/javascript"> const mainURL = 'https://portalautomotriz.com.gt/';</script>
     <script src="../js/cloudfront.js" type="text/javascript"></script>
     <script src="../js/webflow.js"></script>
     <script src="../js/util.js"></script>
@@ -24,17 +25,18 @@
     <script src="../js/libraries/aos/aos.js"></script>
     <script src="../js/libraries/sweetalert/sweetalert.js"></script>
     <script type="text/javascript">
-        !function(o, c) {
+        !function (o, c) {
             var n = c.documentElement
-              , t = " w-mod-";
+                , t = " w-mod-";
             n.className += t + "js",
-            ("ontouchstart"in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+                ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
         }(window, document);
     </script>
 
 </head>
+
 <body>
-    <!-- Barra de navegación -->
+    <!-- ##########     NAV BAR     ########## -->
     <header class="header background-section">
         <div class="menu_center w-clearfix">
             <div class="container_logo">
@@ -52,7 +54,8 @@
                     <!-- <img src="source/img/" loading="lazy" alt="PBX: 23368060"> -->
                     <span><b>PBX:</b></span> 2336 8060
                 </a>
-                <a title="WhatsApp" rel="noopener" target="_blank" href="https://api.whatsapp.com/send?phone=50242100854" class="cta_whats w-inline-block">
+                <a title="WhatsApp" rel="noopener" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=50242100854" class="cta_whats w-inline-block">
                     <img src="../source/img/iconos/whatsappicon.png" loading="lazy" alt="">
                 </a>
             </div>
@@ -75,565 +78,1347 @@
             <a href="../index.html" class="text_link_menu">Inicio</a>
         </div>
     </header>
-    <!-- FIN Barra de navegación -->
+    <!-- ###################################### -->
 
-    <!-- MAIN -->
-
-
-    <!-- Nuevo ingreso autos -->
-
-     <!-- FIN Nuevo ingreso autos -->
-     <section class="jc_sec_ingresos wf-section">
-        <div class="contenedor">
-            <div class="jc_cont_titul_cta w-clearfix">
-                <div data-aos="fade-right" data-aos-duration="1000" class="jc_titul_ingresos"></div>
-                <a data-aos="fade-left" data-aos-duration="1000" href="#" class="jc_cta_ver_ingre">Catálogo completo</a>
+    <!-- ##########     BANNER     ########## -->
+    <section class="jc_sec_slide wf-section" data-aos="fade-up" data-aos-duration="59000">
+        <div class="jc_container_g">
+            <div data-delay="2500" data-animation="slide" class="slider w-slider" data-autoplay="false"
+                data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+                data-nav-spacing="3" data-duration="1000" data-infinite="true">
+                <div class="mascara_slide w-slider-mask">
+                    <div class="jc_slides w-slide">
+                        <div class="jc_cont_slider" style="background-image: url('../source/img/banner/5.jpg');"></div>
+                    </div>
+                </div>
+                <!-- <div class="left-arrow w-slider-arrow-left">
+                    <div class="icon w-icon-slider-left"></div>
+                </div>
+                <div class="right-arrow w-slider-arrow-right">
+                    <div class="icon-2 w-icon-slider-right"></div>
+                </div> -->
+                <div class="slide-nav w-slider-nav w-round"></div>
             </div>
-            <div class="content-catalogo">
-                <div class="content-catalogo">
+        </div>
+    </section>
+    <!-- #################################### -->
 
-                    <!-- CARRO #1 -->
-                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/1.png');">
-                                <img src="../source/img/reservado_estatus.png" class="reservado_status">
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        Q. 135,000.00<span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c-nombre">
-                                <div class="name-col-catalogo">Audi A3 2016</div>
-                            </div>
-                        </a>
-                        <div class="info-car-col-catalogo">
-                            <div class="items-col-catalogo">
-                                <div class="items-top-col">
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">75,593 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">2,000 Cc</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automatico</div>
-                                    </div>
-                                </div>
-                                <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">75,593 Km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
-                                <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <!-- CARRO #1 END -->
+    <!-- ##########     ##### MAIN #####    ########## -->
+    <main class="main box jplist" id="filtro_carros">
+        <link rel="stylesheet" href="../css/libraries/jplist/jplist.styles.css" />
 
-                     <!-- CARRO #1 -->
-                     <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/2.png');">
-                                <!-- <img src="../source/img/reservado_estatus.png" class="reservado_status"> -->
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        $USD. 63,900.00<span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c-nombre">
-                                <div class="name-col-catalogo">Audi Q7 2017 Blindaje 3N plus</div>
-                            </div>
-                        </a>
-                        <div class="info-car-col-catalogo">
-                            <div class="items-col-catalogo">
-                                <div class="items-top-col">
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">42,093 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">2,995 Cc</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automatico</div>
-                                    </div>
-                                </div>
-                                <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">75,593 Km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
-                                <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <!-- CARRO #1 END -->
+        <!-- ##########     FILTROS     ########## -->
+        <section class="jc_cont_filtros">
+            <div class="contenedor">
+                <div class="formulario_filtros">
+                    <form action="../modulos/catalogo-autos.html" method="get" id="formFiltrosDesktop"
+                        class="form-filtros w-clearfix jplist-panel">
+                        <input value="" data-jplist-control="textbox-filter" data-group="group1"
+                            data-name="filter-search" data-path=".nombre" type="search" class="search_filter w-input"
+                            name="name" placeholder="Buscar auto" autocomplete="false" id="inputSearchName" />
+                        <input class="input-hidden" id="inputSearchType" type="text" name="type" value="" />
+                        <input class="input-hidden" id="inputSearchBrand" type="text" name="brand" value="" />
+                        <input class="input-hidden" id="inputSearchTransmission" type="text" name="transmission"
+                            value="" />
+                        <input class="input-hidden" id="inputSearchLocation" type="text" name="location" value="" />
+                        <input class="input-hidden" id="inputSearchOrder" type="text" name="order" value="" />
+                        <input class="input-hidden" id="inputSearchMinYear" type="text" name="minYear" value="" />
+                        <input class="input-hidden" id="inputSearchMaxYear" type="text" name="maxYear" value="" />
+                        <input class="input-hidden" id="inputSearchMinPrice" type="text" name="minPrice" value="" />
+                        <input class="input-hidden" id="inputSearchMaxPrice" type="text" name="maxPrice" value="" />
+                        <input class="input-hidden" id="inputSearchMinMileage" type="text" name="minMileage" value="" />
+                        <input class="input-hidden" id="inputSearchMaxMileage" type="text" name="maxMileage" value="" />
+                        <input class="input-hidden" id="inputSearchFuel" type="text" name="fuel" value="" />
+                        <div class="mid__filter w-clearfix">
 
-                     <!-- CARRO #1 -->
-                     <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/3.png');">
-                                <!-- <img src="source/img/reservado_estatus.png" class="reservado_status"> -->
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        Q. 95,000.00<span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="c-nombre">
-                                <div class="name-col-catalogo">BMW 328i 2013</div>
-                            </div>
-                        </a>
-                        <div class="info-car-col-catalogo">
-                            <div class="items-col-catalogo">
-                                <div class="items-top-col">
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">162,396 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">2,000 Cc</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automatico</div>
-                                    </div>
-                                </div>
-                                <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">75,593 Km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
-                                <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <!-- CARRO #1 END -->
+                            <!-- ##### FILTRO POR TIPO ##### -->
+                            <div class="mid_filter_item">
 
-                     <!-- CARRO #1 -->
-                     <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/4.png');">
-                                <!-- <img src="../source/img/reservado_estatus.png" class="reservado_status"> -->
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        $USD. 29,000.00<span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
+                                <div class="mid_filter_item_heading">
+                                    <button type="button" class="mid_filter_item_heading_title w-button">
+                                        Tipo de auto
+                                    </button>
                                 </div>
-                            </div>
-                            <div class="c-nombre">
-                                <div class="name-col-catalogo">BMW 740i 2016</div>
-                            </div>
-                        </a>
-                        <div class="info-car-col-catalogo">
-                            <div class="items-col-catalogo">
-                                <div class="items-top-col">
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">59,733 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">3,000 Cc</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automatico</div>
-                                    </div>
-                                </div>
-                                <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">75,593 Km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
-                                <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/hyundai-i10-2023-8505?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                    <!-- CARRO #1 END -->
+                                <div class="mid_filter_item_content">
+                                    <div class="c-mid_filter_item_content">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter w-button">
+                                            Todos
+                                        </button>
 
-                    <!-- CARRO #2 -->
-                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/5.jpg');">
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">$USD. 98,000.00 <span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span></div>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".blindado" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/b858cea6-3f4f-4dd8-902b-97756095c211/car-4.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Blindado
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bus" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/57126a4a-470e-49f4-9c37-e39dc5b07494/car-8.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Bus
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camion" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/1d302515-0178-4cda-a3d6-11d7064149a2/car-9.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Camión
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camioneta" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/5d5e80ad-d49b-41e3-adb3-ccd210fe9bca/car-7.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Camioneta
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".hatchback" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/80949335-29d9-46a7-ab8d-d2d002ff5ad6/car-1.png);
+                          " type="button" class="mid_filter_item_content_filter w-button">
+                                            Hatchback
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".panel" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/6bb5ddd6-d7a9-4b07-a241-2df229c15ab6/car-3.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Panel
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".pickup" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/f3d2fea2-f418-4888-a7d9-97baeab87414/car-2.png);
+                          " type="button" class="mid_filter_item_content_filter w-button">
+                                            Pickup
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".sedan" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                        background-image: url(https://cofalusados.com/backstage/files/tipos/image/79e154ad-2f7e-438a-9059-6702165b5c01/car-6.png);
+                      " type="button" class="mid_filter_item_content_filter w-button">
+                                            Sedán
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".suv" data-group="group1" data-name="filter-tipo"
+                                            data-mode="radio" style="
+                            background-image: url(https://cofalusados.com/backstage/files/tipos/image/9f60657c-d9d3-4b2d-85eb-37753c6ac0ea/car-5.png);
+                          " type="button" class="mid_filter_item_content_filter w-button">
+                                            SUV
+                                        </button>
+
+                                    </div>
                                 </div>
                             </div>
-                            <div class="c-nombre">
-                                <div class="name-col-catalogo">BMW X5 XDRIVE 40I 2023</div>
+
+                            <!-- ##### FILTRO POR MARCA ##### -->
+                            <div class="mid_filter_item">
+                                <div class="mid_filter_item_heading">
+                                    <button type="button" class="mid_filter_item_heading_title w-button">
+                                        Marca
+                                    </button>
+                                </div>
+                                <div class="mid_filter_item_content mid_filter_item_content--100">
+                                    <div class="c-mid_filter_item_content c-mid_filter_item_content--100">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Todos
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".audi" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Audi
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bmw" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            BMW
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".changan" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Changan
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".chevrolet" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Chevrolet
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".ford" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Ford
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".honda" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Honda
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".hyundai" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Hyundai
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".isuzu" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Isuzu
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".kia" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            KIA
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".lexus" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Lexus
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".mazda" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Mazda
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".mitsubishi" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Mitsubishi
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".nissan" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Nissan
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".renault" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Renault
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".subaru" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Subaru
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".toyota" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Toyota
+                                        </button>
+
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".volskwagen" data-group="group1" data-name="filter-marca"
+                                            data-mode="radio" type="button"
+                                            class="mid_filter_item_content_filter_text w-button">
+                                            Volskwagen
+                                        </button>
+
+                                    </div>
+                                </div>
                             </div>
-                        </a>
-                        <div class="info-car-col-catalogo">
-                            <div class="items-col-catalogo">
-                                <div class="items-top-col">
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">5,240 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">3,000 Cc</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automático</div>
-                                    </div>
+
+                            <!-- ##### FILTRO POR TRANSMISIÓN ##### -->
+                            <div class="mid_filter_item">
+                                <div class="mid_filter_item_heading">
+                                    <button type="button" class="mid_filter_item_heading_title w-button">
+                                        Transmisión
+                                    </button>
                                 </div>
-                                <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">162,396 Km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
-                                    <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
+                                <div class="mid_filter_item_content mid_filter_item_content--100">
+                                    <div class="c-mid_filter_item_content jplist-group">
+                                        <label
+                                            class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
+                                            <input data-jplist-control="checkbox-path-filter" data-path=".automatico"
+                                                data-or="gender" data-group="group1" data-name="filter-transmisione"
+                                                type="checkbox"
+                                                class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100" />
+                                            <span class="chechkbox-label-filtro w-form-label"
+                                                for="checkbox">Automático</span>
+                                        </label>
+                                        <label
+                                            class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
+                                            <input data-jplist-control="checkbox-path-filter" data-path=".mecanico"
+                                                data-or="gender" data-group="group1" data-name="filter-transmisione"
+                                                type="checkbox"
+                                                class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100" />
+                                            <span class="chechkbox-label-filtro w-form-label"
+                                                for="checkbox">Mecánico</span>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
-                                <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/hyundai-creta-2019-8481?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
-                                </div>
-                            </div> -->
+
                         </div>
-                    </div>
-                    <!-- CARRO #2 END -->
-                    <!-- CARRO #3 -->
-                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="#">
-                            <div class="img-col-catalogo" style="background-image: url('../source/img/autos/6.jpg');">
-                                <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        Q. 69,990.00<span style="font-size: 8px;margin-top: 0px;padding-left: 2px;">(IVA incluido)</span>
+
+                        <!-- ##### ICONO FILTRO ##### -->
+                        <button title="Filtros" type="button" id="filtros" class="filter__button">
+                            <img src="../source/img/iconos/favicon.png" loading="lazy" alt="" class="filter_icon" />
+                        </button>
+
+                        <!-- ##### FILTROS PC ##### -->
+                        <div class="seis-filtros-desktop">
+                            <div class="top-filtros">
+                                <button type="button" class="close-link w-inline-block">
+                                    <img src="../source/img/iconos/closeicon.png" loading="lazy" width="21" />
+                                </button>
+                                <div class="titulo-filtros">Filtros</div>
+                                <button type="button" data-jplist-control="reset" data-group="group1" data-name="reset"
+                                    class="link-limpiar">
+                                    Reiniciar
+                                </button>
+                            </div>
+                            <div class="bottom-filtros w-clearfix">
+                                <a href="#" id="ubicacion" class="cta-filtro">Ubicación</a>
+                                <a href="#" id="ordenar" class="cta-filtro">Ordernar</a>
+                                <a href="#" id="anio" class="cta-filtro">Año</a>
+
+                                <!-- ##### FILTRO POR UBICACIÓN ##### -->
+                                <div class="filtro-ubicacion">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path="default" data-group="group1" data-name="filter-sucursale"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--location w-button">
+                                        Todos
+                                    </button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path=".agencia-proceres" data-group="group1" data-name="filter-sucursale"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--location w-button">
+                                        Boulevar Los Próceres
+                                    </button>
+
+                                    <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path=".agencia-yurrita" data-group="group1" data-name="filter-sucursale"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--location w-button">
+                                        Agencia Yurrita
+                                    </button> -->
+
+                                    <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path=".agencia-arrazola" data-group="group1" data-name="filter-sucursale"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--location w-button">
+                                        Agencia Arrazola
+                                    </button> -->
+
+                                </div>
+
+                                <!-- ##### FILTRO POR ORDEN ##### -->
+                                <div class="filtro-ordenar w-clearfix">
+                                    <div class="content-filtro-ordenar">
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order w-clearfix">
+                                            <input data-id="new" data-jplist-control="checkbox-sort" data-path=".anio"
+                                                data-group="group1" data-order="desc" data-type="number" type="checkbox"
+                                                class="w-checkbox-input checkbox-item-filtro" />
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox">Lo más
+                                                nuevo</span>
+                                        </label>
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order w-clearfix">
+                                            <input data-id="lower" data-jplist-control="checkbox-sort"
+                                                data-path=".precio" data-group="group1" data-order="asc"
+                                                data-type="number" type="checkbox"
+                                                class="w-checkbox-input checkbox-item-filtro" />
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox-3">Precio
+                                                más bajo</span>
+                                        </label>
+                                        <label class="w-checkbox checkbox-filtro checkbox-filtro--order w-clearfix">
+                                            <input data-id="higher" data-jplist-control="checkbox-sort"
+                                                data-path=".precio" data-group="group1" data-order="desc"
+                                                data-type="number" type="checkbox"
+                                                class="w-checkbox-input checkbox-item-filtro" />
+                                            <span class="chechkbox-label-filtro w-form-label" for="checkbox-2">Precio
+                                                más alto</span>
+                                        </label>
                                     </div>
+                                </div>
+
+                                <!-- ##### FILTRO POR AÑO ##### -->
+                                <div class="filtro-anio">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".anio"
+                                                data-group="group1" data-name="anio-filter" data-min="2008"
+                                                data-from="1" data-to="2023" data-max="2023">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMinYear" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMaxYear" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ##### OTROS FILTROS ##### -->
+                                <a href="#" id="precio" class="cta-filtro">Precio</a>
+                                <a href="#" id="kilometraje" class="cta-filtro">Kilometraje</a>
+                                <a href="#" id="combustible" class="cta-filtro">Combustible</a>
+
+                                <!-- ##### FILTRO POR PRECIO ##### -->
+                                <div class="filtro-precio">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".precio"
+                                                data-group="group1" data-name="price-filter" data-min="0" data-from="1"
+                                                data-to="636890" data-max="636890">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span>Q</span>
+                                                        <span id="valueMinPrice" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span>Q</span>
+                                                        <span id="valueMaxPrice" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ##### FILTRO POR KILOMETRO ##### -->
+                                <div class="filtro-kilometraje">
+                                    <div class="c-anio">
+                                        <div class="barra-filtro">
+                                            <div data-jplist-control="slider-range-filter" data-path=".kilometraje"
+                                                data-group="group1" data-name="kilometraje-filter" data-min="352"
+                                                data-from="1" data-to="1399555" data-max="1399555">
+                                                <div class="jplist-slider-values">
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMinMileage" data-type="value-1"></span>
+                                                    </div>
+                                                    <div class="jplist-slider-value">
+                                                        <span id="valueMaxMileage" data-type="value-2"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="jplist-slider" data-type="slider"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ##### FILTRO POR COMBUSTIBLE ##### -->
+                                <div class="filtro-combustible">
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path="default" data-group="group1" data-name="filter-combustible"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--fuel w-button">
+                                        Todos
+                                    </button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path=".gasolina" data-group="group1" data-name="filter-combustible"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--fuel w-button">
+                                        Gasolina
+                                    </button>
+                                    <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                        data-path=".diesel" data-group="group1" data-name="filter-combustible"
+                                        data-mode="radio" type="button"
+                                        class="agencia-filtro agencia-filtro--fuel w-button">
+                                        Diesel
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="content-cta-filtro">
+                                <button id="view-results" type="button" class="cta-ver-resultado">
+                                    Ver resultados
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="overlay-filtros">
+            <div class="conten-filtros-movil">
+                <div class="contenedor">
+                    <div class="formulario_filtros">
+                        <form action="../modulos/catalogo-autos.html" id="formFiltrosMovil" method="get"
+                            class="form-filtros">
+                            <input class="input-hidden" id="inputSearchNameMobile" type="text" name="name" value="" />
+                            <input class="input-hidden" id="inputSearchTypeMobile" type="text" name="typeMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchBrandMobile" type="text" name="brandMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchTransmissionMobile" type="text"
+                                name="transmissionMobile" value="" />
+                            <input class="input-hidden" id="inputSearchLocationMobile" type="text" name="locationMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchOrderMobile" type="text" name="orderMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchMinYearMobile" type="text" name="minYearMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchMaxYearMobile" type="text" name="maxYearMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchMinPriceMobile" type="text" name="minPriceMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchMaxPriceMobile" type="text" name="maxPriceMobile"
+                                value="" />
+                            <input class="input-hidden" id="inputSearchMinMileageMobile" type="text"
+                                name="minMileageMobile" value="" />
+                            <input class="input-hidden" id="inputSearchMaxMileageMobile" type="text"
+                                name="maxMileageMobile" value="" />
+                            <input class="input-hidden" id="inputSearchFuelMobile" type="text" name="fuelMobile"
+                                value="" />
+                            <div class="seis-filtros-movil">
+                                <div class="top-filtros">
+                                    <button type="button" class="close-link w-inline-block">
+                                        <img src="../source/img/iconos/closeicon.png" loading="lazy" width="21" />
+                                    </button>
+                                    <div class="titulo-filtros">Filtros</div>
+                                    <button type="button" data-jplist-control="reset" data-group="group1"
+                                        data-name="reset" class="link-limpiar">
+                                        Reiniciar
+                                    </button>
+                                </div>
+                                <div class="bottom-filtros w-clearfix">
+                                    <button type="button" id="tipo-movil" class="cta-filtro">
+                                        Tipo
+                                    </button>
+                                    <div class="filtro-tipo">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" type="button"
+                                            class="tipo-car tipo-car--type-mobile w-button">
+                                            Todos
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".hatchback" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(../source/img/autos/1.png);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Hatchback
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".pickup" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Pickup
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".panel" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Panel
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".blindado" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Blindado
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".suv" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            SUV
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".sedan" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Sedán
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camioneta" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Camioneta
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bus" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Bus
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".camion" data-group="group1" data-name="filter-tipo-movil"
+                                            data-mode="radio" style="
+                            background-image: url(#);
+                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                            Camión
+                                        </button>
+                                    </div>
+                                    <button type="button" id="marca-movil" class="cta-filtro">
+                                        Marca
+                                    </button>
+                                    <div class="filtro-marca">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Todos
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".isuzu" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Isuzu
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".changan" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Changan
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".volskwagen" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Volskwagen
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".bmw" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            BMW
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".honda" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Honda
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".ford" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Ford
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".renault" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Renault
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".subaru" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Subaru
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".audi" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Audi
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".chevrolet" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Chevrolet
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".hyundai" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Hyundai
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".kia" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            KIA
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".lexus" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Lexus
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".mazda" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Mazda
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".toyota" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Toyota
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".mitsubishi" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Mitsubishi
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".nissan" data-group="group1" data-name="filter-marca-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--brand-mobile w-button">
+                                            Nissan
+                                        </button>
+                                    </div>
+                                    <button type="button" id="transmision-movil" class="cta-filtro">
+                                        Transmisión
+                                    </button>
+                                    <div class="filtro-transmision w-clearfix">
+                                        <div class="content-filtro-ordenar">
+                                            <label
+                                                class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
+                                                <input data-jplist-control="checkbox-path-filter"
+                                                    data-path=".automatico" data-or="gender" data-group="group1"
+                                                    data-name="filter-transmisione-movil" type="checkbox"
+                                                    class="w-checkbox-input checkbox-item-filtro" />
+                                                <span class="chechkbox-label-filtro w-form-label"
+                                                    for="checkbox">Automático</span>
+                                            </label>
+                                            <label
+                                                class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
+                                                <input data-jplist-control="checkbox-path-filter" data-path=".mecanico"
+                                                    data-or="gender" data-group="group1"
+                                                    data-name="filter-transmisione-movil" type="checkbox"
+                                                    class="w-checkbox-input checkbox-item-filtro" />
+                                                <span class="chechkbox-label-filtro w-form-label"
+                                                    for="checkbox">Mecánico</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="button" id="ubicacion-movil" class="cta-filtro">
+                                        Ubicación
+                                    </button>
+                                    <div class="filtro-ubicacion">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-sucursale-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
+                                            Todos
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".agencia-proceres" data-group="group1"
+                                            data-name="filter-sucursale-movil" data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
+                                            Boulevar Los Próceres
+                                        </button>
+
+                                        <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".agencia-yurrita" data-group="group1"
+                                            data-name="filter-sucursale-movil" data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
+                                            Agencia Yurrita
+                                        </button> -->
+
+                                        <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".agencia-arrazola" data-group="group1"
+                                            data-name="filter-sucursale-movil" data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
+                                            Agencia Arrazola
+                                        </button> -->
+
+                                    </div>
+                                    <button type="button" id="ordenar-movil" class="cta-filtro">
+                                        Ordernar
+                                    </button>
+                                    <div class="filtro-ordenar w-clearfix">
+                                        <div class="content-filtro-ordenar">
+                                            <label
+                                                class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                                <input data-id="new" data-jplist-control="checkbox-sort"
+                                                    data-path=".anio" data-group="group1" data-order="desc"
+                                                    data-type="number" type="checkbox"
+                                                    class="w-checkbox-input checkbox-item-filtro" id="checkbox-new" />
+                                                <span class="chechkbox-label-filtro w-form-label" for="checkbox-new">Lo
+                                                    más nuevo</span>
+                                            </label>
+                                            <label
+                                                class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                                <input data-id="lower" data-jplist-control="checkbox-sort"
+                                                    data-path=".precio" data-group="group1" data-order="asc"
+                                                    data-type="number" type="checkbox"
+                                                    class="w-checkbox-input checkbox-item-filtro" id="checkbox-lower" />
+                                                <span class="chechkbox-label-filtro w-form-label"
+                                                    for="checkbox-lower">Precio más bajo</span>
+                                            </label>
+                                            <label
+                                                class="w-checkbox checkbox-filtro checkbox-filtro--order-mobile w-clearfix">
+                                                <input data-id="higher" data-jplist-control="checkbox-sort"
+                                                    data-path=".precio" data-group="group1" data-order="desc"
+                                                    data-type="number" type="checkbox"
+                                                    class="w-checkbox-input checkbox-item-filtro"
+                                                    id="checkbox-higher" />
+                                                <span class="chechkbox-label-filtro w-form-label"
+                                                    for="checkbox-higher">Precio más alto</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="button" id="anio-movil" class="cta-filtro">
+                                        Año
+                                    </button>
+                                    <div class="filtro-anio">
+                                        <div class="c-anio">
+                                            <div class="barra-filtro">
+                                                <div data-jplist-control="slider-range-filter" data-path=".anio"
+                                                    data-group="group1" data-name="anio-filter-movil" data-min="2008"
+                                                    data-from="1" data-to="2023" data-max="2023">
+                                                    <div class="jplist-slider-values">
+                                                        <div class="jplist-slider-value">
+                                                            <span id="valueMinYearMobile" data-type="value-1"></span>
+                                                        </div>
+                                                        <div class="jplist-slider-value">
+                                                            <span id="valueMaxYearMobile" data-type="value-2"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="jplist-slider" data-type="slider"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" id="precio-movil" class="cta-filtro">
+                                        Precio
+                                    </button>
+                                    <div class="filtro-precio">
+                                        <div class="c-anio">
+                                            <div class="barra-filtro">
+                                                <div data-jplist-control="slider-range-filter" data-path=".precio"
+                                                    data-group="group1" data-name="price-filter-movil" data-min="0"
+                                                    data-from="1" data-to="636890" data-max="636890">
+                                                    <div class="jplist-slider-values">
+                                                        <div class="jplist-slider-value">
+                                                            <span>Q</span>
+                                                            <span id="valueMinPriceMobile" data-type="value-1"></span>
+                                                        </div>
+                                                        <div class="jplist-slider-value">
+                                                            <span>Q</span>
+                                                            <span id="valueMaxPriceMobile" data-type="value-2"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="jplist-slider" data-type="slider"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" id="kilo-movil" class="cta-filtro">
+                                        Kilometraje
+                                    </button>
+                                    <div class="filtro-kilometraje">
+                                        <div class="c-anio">
+                                            <div class="barra-filtro">
+                                                <div data-jplist-control="slider-range-filter" data-path=".kilometraje"
+                                                    data-group="group1" data-name="kilometraje-filter-movil"
+                                                    data-min="352" data-from="1" data-to="1399555" data-max="1399555">
+                                                    <div class="jplist-slider-values">
+                                                        <div class="jplist-slider-value">
+                                                            <span id="valueMinMileageMobile" data-type="value-1"></span>
+                                                        </div>
+                                                        <div class="jplist-slider-value">
+                                                            <span id="valueMaxMileageMobile" data-type="value-2"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="jplist-slider" data-type="slider"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" id="com-movil" class="cta-filtro">
+                                        Combustible
+                                    </button>
+                                    <div class="filtro-combustible">
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path="default" data-group="group1" data-name="filter-combustible-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--fuel-mobile w-button">
+                                            Todos
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".gasolina" data-group="group1"
+                                            data-name="filter-combustible-movil" data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--fuel-mobile w-button">
+                                            Gasolina
+                                        </button>
+                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
+                                            data-path=".diesel" data-group="group1" data-name="filter-combustible-movil"
+                                            data-mode="radio" type="button"
+                                            class="agencia-filtro agencia-filtro--fuel-mobile w-button">
+                                            Diesel
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="content-cta-filtro">
+                                    <button id="view-results" type="button" class="cta-ver-resultado">
+                                        Ver resultados
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ##################################### -->
+
+        <!-- ##########     AUTOS     ########## -->
+        <script src="../js/catalogo/index.js"></script>
+        <section class="catalogo-al wf-section">
+            <div class="container-al">
+                <div class="content-catalogo list" data-jplist-group="group1" id="group1">
+
+                    <!-- AUDI A3 - 2016 -->
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item" data-jplist-item>
+                        <span class="sedan"></span>
+                        <span class="audi"></span>
+                        <span class="mecanico"></span>
+                        <span class="agencia-proceres"></span>
+                        <span class="anio 2016" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">2016</span>
+                        <span class="precio 135000" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">135000</span>
+                        <span class="kilometraje 75593" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">75593</span>
+                        <span class="gasolina"></span>
+                        <a class="col-catalogo-link" href="../modulos/autos-coleccion/carro-01.html">
+                            <div class="img-col-catalogo">
+                                <img class="img-col-catalogo__image" src="../source/img/autos/1.jpg"
+                                    alt="Audi A3 - 2016" loading="lazy" />
+                                <div class="content-res-pre w-clearfix">
+                                    <div class="precio-col-catalogo">Q. 135,000.00</div>
                                 </div>
                             </div>
                             <div class="c-nombre">
-                                <div class="name-col-catalogo">Chevrolet N300 MAX 2017</div>
+                                <div class="name-col-catalogo nombre">
+                                    Audi A3 - 2016
+                                </div>
                             </div>
                         </a>
                         <div class="info-car-col-catalogo">
                             <div class="items-col-catalogo">
                                 <div class="items-top-col">
                                     <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/km.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">40,865 km</div>
+                                        <img src="../source/img/iconos/km.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">75,593 km</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">1,200 Cc</div>
+                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">1600 Cc</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt=""
+                                            class="icons-cols" />
                                         <div class="txt-icon">Mecánico</div>
                                     </div>
                                 </div>
                                 <div class="items-top-col bottom">
-                                    <!-- <div class="icons-txt-col-cat">
-                                        <img src="source/img/iconos/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">5,240 km</div>
-                                    </div> -->
-                                    <!-- <div class="line-items"></div> -->
                                     <div class="icons-txt-col-cat">
-                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="">
+                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="" />
                                         <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
                                     </div>
                                 </div>
                             </div>
                             <!-- <div class="jc_cont_btns_card">
-                                <a href="#" class="cta-cuotas-catalogo">Conocer</a>
-                                <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076"
+                                    class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cotizar"
+                                    class="cta-cotizar-catalogo">Cotizar</a>
                                 <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/volkswagen-saveiro-2023-8479?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cita"
+                                        class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#calculadora"
+                                        class="cta-detalle-catalogo">Calcular cuotas</a>
                                 </div>
                             </div> -->
                         </div>
                     </div>
-                    <!-- CARRO #3 END -->
-                    <!-- CARRO #4 -->
-                    <!-- <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454">
-                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/0b1f522e-2525-4d9b-a180-263257838832/8454-KIA-PICANTO-2023-GRIS-P386JWC-WEB-12.jpg');">
+                    <!-- AUDI A3 - 2016 FIN-->
+
+                    <!-- AUDI Q7 - 2017 BLINDAJE 3N PLUS-->
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item" data-jplist-item>
+                        <span class="blindado"></span>
+                        <span class="audi"></span>
+                        <span class="automatico"></span>
+                        <span class="agencia-proceres"></span>
+                        <span class="anio 2017" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">2017</span>
+                        <span class="precio 63900" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">63900</span>
+                        <span class="kilometraje 42093" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">42093</span>
+                        <span class="gasolina"></span>
+                        <a class="col-catalogo-link" href="../modulos/autos-coleccion/carro-01.html">
+                            <div class="img-col-catalogo">
+                                <img class="img-col-catalogo__image" src="../source/img/autos/2.jpg"
+                                    alt="AUDI Q7 2017 Blindaje 3N Plus" loading="lazy" />
                                 <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        Q. 121,732.80<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
+                                    <div class="precio-col-catalogo">$USD. 63,900.00</div>
                                 </div>
                             </div>
                             <div class="c-nombre">
-                                <div class="name-col-catalogo">KIA PICANTO EX 2023 - 8454</div>
+                                <div class="name-col-catalogo nombre">
+                                    Audi Q7 - 2017 Blindaje 3N Plus
+                                </div>
                             </div>
                         </a>
                         <div class="info-car-col-catalogo">
                             <div class="items-col-catalogo">
                                 <div class="items-top-col">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">8454</div>
+                                        <img src="../source/img/iconos/km.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">59,733 km</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">1200</div>
+                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">3,000 Cc</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt=""
+                                            class="icons-cols" />
                                         <div class="txt-icon">Automático</div>
                                     </div>
                                 </div>
                                 <div class="items-top-col bottom">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">8755 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="images/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Agencia Arrazola</div>
+                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="" />
+                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="jc_cont_btns_card">
-                                <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454" class="cta-cuotas-catalogo">Ver más detalles</a>
-                                <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                            <!-- <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076"
+                                    class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cotizar"
+                                    class="cta-cotizar-catalogo">Cotizar</a>
                                 <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/kia-picanto-ex-2023-8454?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cita"
+                                        class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#calculadora"
+                                        class="cta-detalle-catalogo">Calcular cuotas</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div> -->
-                    <!-- CARRO #4 END -->
-                    <!-- CARRO #5 -->
-                    <!-- <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437">
-                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/e645c94b-8f01-4ae3-b6b1-2712e2cba7c4/8437-TOYOTA-YARIS-2022-PLATEADO-P506JPH-WEB-15.jpg');">
+                    </div>
+                    <!-- AUDI Q7 - 2017 BLINDAJE 3N PLUS FIN-->
+
+                    <!-- BMW 328I - 2013 -->
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item" data-jplist-item>
+                        <span class="sedan"></span>
+                        <span class="bmw"></span>
+                        <span class="mecanico"></span>
+                        <span class="agencia-proceres"></span>
+                        <span class="anio 2013" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">2013</span>
+                        <span class="precio 95000" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">95000</span>
+                        <span class="kilometraje 162396" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">162396</span>
+                        <span class="gasolina"></span>
+                        <a class="col-catalogo-link" href="../modulos/autos-coleccion/carro-01.html">
+                            <div class="img-col-catalogo">
+                                <img class="img-col-catalogo__image" src="../source/img/autos/3.jpg"
+                                    alt="BWM 328I - 2013" loading="lazy" />
                                 <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">
-                                        Q. 137,816.00<span style="font-size: 8px;margin-top: 10px;padding-left: 2px;">(IVA incluido)</span>
-                                    </div>
+                                    <div class="precio-col-catalogo">Q. 95,000.00</div>
                                 </div>
                             </div>
                             <div class="c-nombre">
-                                <div class="name-col-catalogo">TOYOTA YARIS 2022 - 8437</div>
+                                <div class="name-col-catalogo nombre">
+                                    BMW 328I - 2013
+                                </div>
                             </div>
                         </a>
                         <div class="info-car-col-catalogo">
                             <div class="items-col-catalogo">
                                 <div class="items-top-col">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">8437</div>
+                                        <img src="../source/img/iconos/km.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">162,396 km</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">1496</div>
+                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">2,000 Cc</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">Automático</div>
+                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">Mecánico</div>
                                     </div>
                                 </div>
                                 <div class="items-top-col bottom">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">47226 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="images/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="" />
+                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="jc_cont_btns_card">
-                                <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437" class="cta-cuotas-catalogo">Ver más detalles</a>
-                                <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                            <!-- <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076"
+                                    class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cotizar"
+                                    class="cta-cotizar-catalogo">Cotizar</a>
                                 <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/toyota-yaris-2022-8437?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cita"
+                                        class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#calculadora"
+                                        class="cta-detalle-catalogo">Calcular cuotas</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div> -->
-                    <!-- CARRO #5 END -->
-                    <!-- CARRO #6 -->
-                    <!-- <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo">
-                        <a class="col-catalogo-link" href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403">
-                            <div class="img-col-catalogo" style="background-image: url('https://cofalusados.com/backstage/files/vehiculos/image_1/c714faec-78ef-4169-b494-baac1a9b30c2/8403-KIA-RIO-2017-PLATEADO-P190GGB-WEB-14.jpg');">
+                    </div>
+                    <!-- BMW 328I - 2013 FIN-->
+
+                    <!-- BMW 740I - 2016 -->
+                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item" data-jplist-item>
+                        <span class="sedan"></span>
+                        <span class="bwm"></span>
+                        <span class="automatico"></span>
+                        <span class="agencia-proceres"></span>
+                        <span class="anio 2016" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">2016</span>
+                        <span class="precio 29000" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">29000</span>
+                        <span class="kilometraje 59733" style="
+                            position: absolute;
+                            height: 0;
+                            font-size: 0;
+                            width: 0;
+                            visibility: hidden;
+                          ">59733</span>
+                        <span class="gasolina"></span>
+                        <a class="col-catalogo-link" href="../modulos/autos-coleccion/carro-01.html">
+                            <div class="img-col-catalogo">
+                                <img class="img-col-catalogo__image" src="../source/img/autos/4.jpg"
+                                    alt="BMW 740I - 2016" loading="lazy" />
                                 <div class="content-res-pre w-clearfix">
-                                    <div class="precio-col-catalogo">Q. 91,420.00</div>
+                                    <div class="precio-col-catalogo">$USD. 29,000.00</div>
                                 </div>
                             </div>
                             <div class="c-nombre">
-                                <div class="name-col-catalogo">KIA RIO LX 2017 - 8403</div>
+                                <div class="name-col-catalogo nombre">
+                                    BMW 740I - 2016
+                                </div>
                             </div>
                         </a>
                         <div class="info-car-col-catalogo">
                             <div class="items-col-catalogo">
                                 <div class="items-top-col">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/code.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">8403</div>
+                                        <img src="../source/img/iconos/km.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">59,733 km</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/moto.png" loading="lazy" alt="" class="icons-cols">
-                                        <div class="txt-icon">1400</div>
+                                        <img src="../source/img/iconos/motor.png" loading="lazy" alt=""
+                                            class="icons-cols" />
+                                        <div class="txt-icon">3000 Cc</div>
                                     </div>
                                     <div class="line-items"></div>
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/transmission.png" loading="lazy" alt="" class="icons-cols">
+                                        <img src="../source/img/iconos/transmission.png" loading="lazy" alt=""
+                                            class="icons-cols" />
                                         <div class="txt-icon">Automático</div>
                                     </div>
                                 </div>
                                 <div class="items-top-col bottom">
                                     <div class="icons-txt-col-cat">
-                                        <img src="images/km.png" loading="lazy" alt="">
-                                        <div class="txt-icon">128443 Km</div>
-                                    </div>
-                                    <div class="line-items"></div>
-                                    <div class="icons-txt-col-cat">
-                                        <img src="images/pin-web.png" loading="lazy" alt="">
-                                        <div class="txt-icon">Agencia Roosevelt</div>
+                                        <img src="../source/img/iconos/pin-web.png" loading="lazy" alt="" />
+                                        <div class="txt-icon">Boulevar Los Próceres 7-48 Z10</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="jc_cont_btns_card">
-                                <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403" class="cta-cuotas-catalogo">Ver más detalles</a>
-                                <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#cotizar" class="cta-cotizar-catalogo">Cotizar</a>
+                            <!-- <div class="jc_cont_btns_card">
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076"
+                                    class="cta-cuotas-catalogo">Ver más detalles</a>
+                                <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cotizar"
+                                    class="cta-cotizar-catalogo">Cotizar</a>
                                 <div class="content-dos-cta w-clearfix">
-                                    <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#cita" class="cta-test-catalogo">Test drive</a>
-                                    <a href="https://cofalusados.com/catalogo/kia-rio-lx-2017-8403?#calculadora" class="cta-detalle-catalogo">Calcular cuotas</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#cita"
+                                        class="cta-test-catalogo">Test drive</a>
+                                    <a href="https://cofalusados.com/catalogo/nissan-tiida-2013-8076?#calculadora"
+                                        class="cta-detalle-catalogo">Calcular cuotas</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div> -->
-                    <!-- CARRO #6 END -->
+                    </div>
+                    <!-- BMW 740I - 2016 FIN-->
 
 
                 </div>
-                <!-- <div class="jc_cont_financiamientos">
-                    <div class="jc_cont_titul_finan">
-                        <div class="jc_txt_titul_finan">Contamos con los mejores planes de financiamiento.</div>
-                    </div>
-                    <div class="jc_cont_logos_finan">
-                        <div class="jc_cta_icon_finan w-inline-block">
-                            <img src="images/icon_bi.png" loading="lazy" alt="">
-                        </div>
-                        <div class="jc_cta_icon_finan w-inline-block">
-                            <img src="images/icon_bac.png" loading="lazy" alt="">
-                        </div>
-                        <div class="jc_cta_icon_finan w-inline-block">
-                            <img src="images/icon_gyt.png" loading="lazy" alt="">
-                        </div>
-                        <div class="jc_cta_icon_finan w-inline-block">
-                            <img src="images/icon_bam.png" loading="lazy" alt="">
-                        </div>
-                        <div class="jc_cta_icon_finan w-inline-block">
-                            <img src="images/icon_arr.png" loading="lazy" alt="">
+
+
+                <!-- NO SE HA ENCONTRADO RESULTADO -->
+                <div class="jc_cont_car_more box jplist-no-results text-shadow align-center"
+                    data-jplist-control="no-results" data-group="group1" data-name="no-results">
+                    <div class="jc_cond_div_carg">
+                        <div class="jc_txt_carg_more">
+                            Lamentamos no contar con el vehículo que buscas...
                         </div>
                     </div>
-                </div> -->
+                </div>
+                <!-- NO SE HA ENCONTRADO RESULTADO FIN-->
+
+                <!-- PAGINACIÓN -->
+                <div class="c-pagination-items" data-jplist-control="pagination" data-group="group1"
+                    data-items-per-page="6" data-current-page="0" data-name="pagination1" data-jump="top"
+                    data-range="3">
+                    <div class="row mb-3 pagination-items">
+                        <button type="button" data-type="first">«</button>
+                        <button type="button" data-type="prev">‹</button>
+                        <div class="jplist-holder" data-type="pages">
+                            <button type="button" data-type="page">{pageNumber}</button>
+                        </div>
+                        <button type="button" data-type="next">›</button>
+                        <button type="button" data-type="last">»</button>
+                    </div>
+                </div>
+                <!-- PAGINACIÓN FIN -->
+
             </div>
+
+
+            <!-- FOOTER -->
             <div class="jc_cont_titul_finan">
-                <div class="creditos_footer">Desarrollado por <span class=""><a href="https://oscarleon.app/" class="oscarleon" target="_blank">OSCARLEON</a></span>. Todos los Derechos reservados Portal Automotriz 2023</div>
+                <div class="creditos_footer">Desarrollado por <span class=""><a href="https://oscarleon.app/"
+                            class="oscarleon" target="_blank">OSCARLEON</a></span>. Todos los Derechos reservados Portal
+                    Automotriz 2023</div>
             </div>
-            <a title="Contacto" href="https://api.whatsapp.com/send?phone=50242100854" class="fab-message" target="_blank"></a>
-    </section>
-    <!-- FIN MAIN -->
+            <!-- FOOTER FIN -->
 
-    <!-- Footer -->
+            <a title="Contacto" href="https://api.whatsapp.com/send?phone=50242100854" class="fab-message"
+                target="_blank"></a>
+        </section>
+        <!-- ################################### -->
 
-    <!-- Fin Footer -->
+        <!-- ##########     SCRIPTS     ########## -->
+        <script src="../js/libraries/jplist/jplist.min.js"></script>
+        <script>
+            jplist.init();
+        </script>
+        <!-- ##################################### -->
 
-    <!-- Script -->
-    <script src="../js/catalogo/index.js"></script>
-    <script src="../js/libraries/jplist/jplist.min.js"></script>
+    </main>
+    <!-- ################### MAIN #################### -->
+
     <script>
         AOS.init();
     </script>
-    <!-- FIN Script -->
+
 </body>
+
 </html>
