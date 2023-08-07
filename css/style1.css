@@ -102,7 +102,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   transition: color 0.2s;
-  background-color: #F8F9FA;
+  /* background-color: #F8F9FA; */
 }
 
 .text_link_menu.w--current {
