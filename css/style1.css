@@ -2007,6 +2007,7 @@ input[type="submit"]:disabled {
 
   .logo {
     height: 45px;
+    margin-left: -14px;
   }
 
   .toggle {
@@ -2517,6 +2518,7 @@ input[type="submit"]:disabled {
 
   .logo {
     height: 35px;
+    margin-left: -14px;
   }
 }
 
