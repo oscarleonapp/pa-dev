@@ -642,14 +642,14 @@ root {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 15px 5px 14px;
-  -webkit-box-pack: justify;
+  padding: 10px 0px 0px 0px;
+  -webkit-box-pack: center;
   /* -webkit-justify-content: space-between; */
-  -ms-flex-pack: justify;
+  -ms-flex-pack: center;
   justify-content: space-between;
   border-bottom: 1px solid #77838f;
   /* background-color: #fff; */
-  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 10px 10px 10px 10px; */
 }
 
 .titulos-info {
@@ -667,7 +667,7 @@ root {
   font-size: 18px;
   font-weight: 500;
   /* text-align: center; */
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .col-info-inter .datos-info {
