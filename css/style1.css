@@ -269,7 +269,7 @@ body {
 }
 
 .jc_cta_ver_ingre {
-  padding: 10px 20px;
+  padding: 10px 10px;
   float: right;
   border: 1px solid #001e32;
   border-radius: 10px;
@@ -1924,8 +1924,8 @@ input[type="submit"]:disabled {
   }
 
   .jc_cta_ver_ingre {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 14px;
   }
 
