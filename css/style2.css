@@ -84,19 +84,59 @@ root {
 }
 
 .c-nombre {
+  width: 100%;
   padding: 5px 5px;
-  background-color: #001e32;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "nombre precio";
+  font-family: Barlow, sans-serif;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+  /* font-weight: 600; */
+  text-align: center;
+  /* text-transform: uppercase; */
+  border: 1px solid #c1c7cf;
 }
+
+.c-nombre .nombre {
+  justify-self: start;
+  grid-area: nombre;
+  color: #0073bc;
+}
+
+.c-nombre .nombre span {
+  color: #000000;
+}
+
+.c-nombre .precio {
+  justify-self: end;
+  align-self: center;
+  grid-area: precio;
+  font-weight: 600;
+}
+
+.line-items1 {
+  align-self: center;
+  width: 1px;
+  height: 100%;
+  margin-right: 10px;
+  color: #c1c7cf;
+}
+
 
 .name-col-catalogo {
   font-family: Barlow, sans-serif;
-  color: #fff;
+  color: #0073bc;
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
 }
+
 
 .content-res-pre {
   padding-top: 20px;
@@ -167,7 +207,7 @@ root {
   width: 70%;
   height: 25px;
   padding-left: 10px;
-  float: left;
+  float: right;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: end;
@@ -196,6 +236,9 @@ root {
 
 .info-car-col-catalogo {
   padding: 15px 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  /* border: .5px solid #d6dade; */
 }
 
 .items-col-catalogo {
@@ -411,6 +454,8 @@ root {
   margin-left: 10px;
   /* background-color: #c1c7cf; */
 }
+
+
 
 .items-top-col {
   display: -webkit-box;
