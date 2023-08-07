@@ -67,6 +67,7 @@ root {
   background-color: #eee;
   padding-top: 66.66%;
   overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .img-col-catalogo__image {
