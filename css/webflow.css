@@ -73,7 +73,8 @@ img {
 }
 
 .img-logo {
-  margin-left: -25px;
+  margin-left: -17px;
+  height: 50px;
 }
 
 html.w-mod-touch * {
