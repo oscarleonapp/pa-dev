@@ -67,6 +67,7 @@ root {
   background-color: #eee;
   padding-top: 66.66%;
   overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .img-col-catalogo__image {
@@ -98,7 +99,8 @@ root {
   /* font-weight: 600; */
   text-align: center;
   /* text-transform: uppercase; */
-  border: 1px solid #c1c7cf;
+  /* border-top: 1px solid #c1c7cf; */
+  border-bottom: 1px solid #c1c7cf;
 }
 
 .c-nombre .nombre {
@@ -642,14 +644,14 @@ root {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 15px 5px 14px;
-  -webkit-box-pack: justify;
+  padding: 10px 0px 0px 0px;
+  -webkit-box-pack: center;
   /* -webkit-justify-content: space-between; */
-  -ms-flex-pack: justify;
+  -ms-flex-pack: center;
   justify-content: space-between;
   border-bottom: 1px solid #77838f;
   /* background-color: #fff; */
-  border-radius: 10px 10px 10px 10px;
+  /* border-radius: 10px 10px 10px 10px; */
 }
 
 .titulos-info {
@@ -667,7 +669,7 @@ root {
   font-size: 18px;
   font-weight: 500;
   /* text-align: center; */
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .col-info-inter .datos-info {
@@ -722,10 +724,10 @@ root {
 .precio-interna {
   color: #001e32;
   font-size: 35px;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid #e9e9e9;
+  /* border: 1px solid #e9e9e9 */
 }
 
 .content-calcular-cuotas {
