@@ -264,32 +264,33 @@ body {
   color: #00030b;
   font-size: 18px;
   line-height: 45px;
-  font-weight: 700;
+  /* font-weight: 700; */
   /* text-transform: uppercase; */
 }
 
 .jc_cta_ver_ingre {
   padding: 10px 20px;
   float: right;
-  border: 1px solid #0270bb;
-  border-radius: 15px;
+  border: 1px solid #001e32;
+  border-radius: 10px;
   font-family: Barlow, sans-serif;
-  color: #fff;
+  color: #001e32;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
   transition: 0.2s;
-  background-color: #0270bb;
+  /* background-color: #0270bb; */
 }
 
 .jc_cta_ver_ingre:hover {
-  background-color: #fff;
-  color: #001e32;
+  background-color: #0270bb;
+  color: #fff;
+  border: 1px solid #0270bb;
 }
 
 .jc_cont_cars {
   display: inline-block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
