@@ -99,7 +99,7 @@ root {
   /* font-weight: 600; */
   text-align: center;
   /* text-transform: uppercase; */
-  border: 1px solid #c1c7cf;
+  border-bottom: 1px solid #c1c7cf;
 }
 
 .c-nombre .nombre {
