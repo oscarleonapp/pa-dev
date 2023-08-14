@@ -367,199 +367,6 @@
             </div>
             <!--END CALCULADORA DE CUOTAS -->
 
-
-            <!-- <div class="content-contacto" id="cotizar">
-              <div class="titulo-contacto">Cotizar</div>
-              <div class="form-contacto-interna">
-                <form id="wf-form-formulario-de-cotizaciones" method="post">
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-firstname-cotizacion" class="label-contacto-inter">Nombre</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-firstname-cotizacion"
-                      placeholder="" id="fake-firstname-cotizacion" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-lastname-cotizacion" class="label-contacto-inter">Apellido</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-lastname-cotizacion"
-                      placeholder="" id="fake-lastname-cotizacion" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-phone-cotizacion" class="label-contacto-inter">Teléfono</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-phone-cotizacion" placeholder=""
-                      id="fake-phone-cotizacion" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-email-cotizacion" class="label-contacto-inter">E-mail</label>
-                    <input type="email" class="input-contacto-inter w-input" name="fake-email-cotizacion" placeholder=""
-                      id="fake-email-cotizacion" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-message-cotizacion" class="label-contacto-inter">Mensaje</label>
-                    <textarea placeholder="" id="fake-message-cotizacion" name="fake-message-cotizacion"
-                      class="input-contacto-inter textarea w-input"></textarea>
-                  </div>
-                  <input id="btn-cotizaciones" type="submit" value="Enviar" class="cta-contacto w-button" />
-                </form>
-                <form method="post" accept-charset="utf-8" id="cotizaciones-form" style="
-                      height: 0;
-                      opacity: 0;
-                      visibility: hidden;
-                      position: absolute;
-                      left: 0;
-                      top: 0;
-                    " action="/cotizaciones/add">
-                  <div style="display: none">
-                    <input type="hidden" name="_method" value="POST" />
-                    <input type="hidden" name="_csrfToken" autocomplete="off"
-                      value="5e6b8e85a7df0e153a779cf24a6e69c7fde40e5b7391400e47e4b61518735a5308d387f1f467b57f61d2a32370770338c5e87679bc554f8c8210d7735cf94fce" />
-                  </div>
-                  <fieldset>
-                    <legend>Add Cotizacione</legend>
-                    <div class="input text">
-                      <label for="nombre-cotizacion">Nombre</label>
-                      <input type="text" name="nombre" id="nombre-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="apellido-cotizacion">Apellido</label>
-                      <input type="text" name="apellido" id="apellido-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="telefono-cotizacion">Telefono</label>
-                      <input type="text" name="telefono" id="telefono-cotizacion" />
-                    </div>
-                    <div class="input email">
-                      <label for="email-cotizacion">Email</label>
-                      <input type="email" name="email" id="email-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="mensaje-cotizacion">Mensaje</label>
-                      <input type="text" name="mensaje" id="mensaje-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="vehiculo-cotizacion">Vehiculo</label>
-                      <input type="text" name="vehiculo" id="vehiculo-cotizacion" value="8479" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-campaign-cotizacion">Utm Campaign</label>
-                      <input type="text" name="utm_campaign" id="utm-campaign-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-content-cotizacion">Utm Content</label>
-                      <input type="text" name="utm_content" id="utm-content-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-medium-cotizacion">Utm Medium</label>
-                      <input type="text" name="utm_medium" id="utm-medium-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-source-cotizacion">Utm Source</label>
-                      <input type="text" name="utm_source" id="utm-source-cotizacion" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-term-cotizacion">Utm Term</label>
-                      <input type="text" name="utm_term" id="utm-term-cotizacion" />
-                    </div>
-                  </fieldset>
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div>
-            <div class="content-contacto" id="cita">
-              <div class="titulo-contacto">Programar cita</div>
-              <div class="form-contacto-interna">
-                <form id="wf-form-formulario-de-citas" method="post">
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-firstname-cita" class="label-contacto-inter">Nombre</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-firstname-cita" placeholder=""
-                      id="fake-firstname-cita" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-lastname-cita" class="label-contacto-inter">Apellido</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-lastname-cita" placeholder=""
-                      id="fake-lastname-cita" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-phone-cita" class="label-contacto-inter">Teléfono</label>
-                    <input type="text" class="input-contacto-inter w-input" name="fake-phone-cita" placeholder=""
-                      id="fake-phone-cita" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-email-cita" class="label-contacto-inter">E-mail</label>
-                    <input type="email" class="input-contacto-inter w-input" name="fake-email-cita" placeholder=""
-                      id="fake-email-cita" required="" />
-                  </div>
-                  <div class="col-contacto col-contacto--in">
-                    <label for="fake-message-cita" class="label-contacto-inter">Mensaje</label>
-                    <textarea placeholder="" id="fake-message-cita" name="fake-message-cita"
-                      class="input-contacto-inter textarea w-input"></textarea>
-                  </div>
-                  <input id="btn-citas" type="submit" value="Enviar" class="cta-contacto w-button" />
-                </form>
-                <form method="post" accept-charset="utf-8" id="citas-form" style="
-                      height: 0;
-                      opacity: 0;
-                      visibility: hidden;
-                      position: absolute;
-                      left: 0;
-                      top: 0;
-                    " action="/citas/add">
-                  <div style="display: none">
-                    <input type="hidden" name="_method" value="POST" />
-                    <input type="hidden" name="_csrfToken" autocomplete="off"
-                      value="5e6b8e85a7df0e153a779cf24a6e69c7fde40e5b7391400e47e4b61518735a5308d387f1f467b57f61d2a32370770338c5e87679bc554f8c8210d7735cf94fce" />
-                  </div>
-                  <fieldset>
-                    <legend>Add Cita</legend>
-                    <div class="input text">
-                      <label for="nombre-cita">Nombre</label>
-                      <input type="text" name="nombre" id="nombre-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="apellido-cita">Apellido</label>
-                      <input type="text" name="apellido" id="apellido-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="telefono-cita">Telefono</label>
-                      <input type="text" name="telefono" id="telefono-cita" />
-                    </div>
-                    <div class="input email">
-                      <label for="email-cita">Email</label>
-                      <input type="email" name="email" id="email-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="mensaje-cita">Mensaje</label>
-                      <input type="text" name="mensaje" id="mensaje-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="vehiculo-cita">Vehiculo</label>
-                      <input type="text" name="vehiculo" id="vehiculo-cita" value="8479" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-campaign-cita">Utm Campaign</label>
-                      <input type="text" name="utm_campaign" id="utm-campaign-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-content-cita">Utm Content</label>
-                      <input type="text" name="utm_content" id="utm-content-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-medium-cita">Utm Medium</label>
-                      <input type="text" name="utm_medium" id="utm-medium-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-source-cita">Utm Source</label>
-                      <input type="text" name="utm_source" id="utm-source-cita" />
-                    </div>
-                    <div class="input text">
-                      <label for="utm-term-cita">Utm Term</label>
-                      <input type="text" name="utm_term" id="utm-term-cita" />
-                    </div>
-                  </fieldset>
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div> -->
-
-
           </div>
         </div>
       </div>
@@ -580,9 +387,16 @@
     </script>
     <!-- FIN VALOR FINANCIADO -->
     <script src="../../js/catalogo/view.js"></script>
+    <script src="/js/catalogo/view.js"></script>
+
     <script src="../../js/catalogo/add.js"></script>
+    <script src="/js/catalogo/add.js"></script>
+
     <script src="../../js/360mod.js"></script>
+    <script src="/js/360mod.js"></script>
+
     <script src="../../js/360.js"></script>
+    <script src="/js/360.js"></script>
 
   </main>
 
