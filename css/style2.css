@@ -89,12 +89,13 @@ root {
   padding: 5px 5px;
   background-color: #fff;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-    "nombre precio";
+    "nombre nombre precio";
   font-family: Barlow, sans-serif;
   color: #000000;
   font-size: 18px;
+  /* font-weight: 600; */
   line-height: 22px;
   /* font-weight: 600; */
   text-align: center;
@@ -119,6 +120,11 @@ root {
   grid-area: precio;
   font-weight: 600;
 }
+
+.precio {
+  font-size: 12px;
+}
+
 
 .line-items1 {
   align-self: center;
