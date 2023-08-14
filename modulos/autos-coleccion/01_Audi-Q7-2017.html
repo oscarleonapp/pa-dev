@@ -11,7 +11,6 @@
   <link href="../../source/img/iconos/favicon.png" type="image/x-icon" rel="shortcut icon" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="../../css/estructura.css">
   <link rel="stylesheet" href="../../css/webflow.css">
   <link rel="stylesheet" href="../../css/style1.css">
@@ -167,14 +166,14 @@
             </div>
 
             <!-- VISTA 360 -->
-            <!-- <div class="titulo-360">Vista 360° del interior del vehículo</div>
+            <div class="titulo-360">Vista 360° del interior del vehículo</div>
             <div class="vista-360">
-              <iframe
+              <!-- <iframe
                 src="https://momento360.com/e/u/1f18f9d35da54d27821a3f57b7c367f7?utm_campaign=embed&utm_source=other&heading=346.97&pitch=-10.01&field-of-view=75&size=medium&display-plan=true"
                 frameborder="0" allowfullscreen style="width: 100%; height: 100%; min-height: 400px">
-              </iframe>
+              </iframe> -->
               <div id="panorama"></div>
-            </div> -->
+            </div>
             <!-- VISTA 360 -->
 
             <!-- DETALLES DEL VEHÍCULO -->
@@ -294,15 +293,15 @@
                   <form method="get">
                     <div class="col-cuotas">
                       <label for="monto" class="labels-cuotas">Monto Q</label>
-                      <input type="number" class="inputs-cuotas w-input" placeholder="135,000.00" id="name"
-                        :value="monto" disabled id="monto" />
+                      <input type="number" class="inputs-cuotas w-input" placeholder="52142" id="name" :value="monto"
+                        disabled id="monto" />
                     </div>
                     <div class="col-cuotas">
                       <label for="enganche" class="labels-cuotas">
                         Enganche Q<br />
                         <span class="sugerido-por">*20% de porcentaje sugerido</span>
                       </label>
-                      <input type="number" class="inputs-cuotas enganche w-input" placeholder="30000" id="enganche"
+                      <input type="number" class="inputs-cuotas enganche w-input" placeholder="12780" id="enganche"
                         v-model="enganche" />
                     </div>
                     <div class="col-cuotas">
@@ -378,111 +377,22 @@
       <!-- <a title="Contacto" href="https://api.whatsapp.com/send?phone=50242100854" class="fab-message"
         target="_blank"></a> -->
     </section>
-    <script src="/js/libraries/fancy/jquery.fancybox.min.js"></script>
-    <script src="/js/libraries/attrchange/attrchange.min.js"></script>
-    <script src="/js/libraries/vue3/vue.global.prod.js"></script>
+    <script src="../../js/libraries/fancy/jquery.fancybox.min.js"></script>
+    <script src="../../js/libraries/attrchange/attrchange.min.js"></script>
+    <script src="../../js/libraries/vue3/vue.global.prod.js"></script>
+
     <!-- VALOR A FINANCIAR -->
+
     <script>
       var priceVehicle = 52142.40;
     </script>
-    <script>
-      $(document).ready(function () {
-        var myIndex = $(".w-slider-dot.w-active").index();
-        var counter = document.getElementById("activeCounterGallery");
+    <script src="../../js/catalogo/view.js"></script>
 
-        $(".w-slide").attrchange({
-          trackValues: true,
-          callback: function (event) {
-            myIndex = $(".w-slider-dot.w-active").index();
-            counter.innerHTML = myIndex + 1;
-          },
-        });
-      });
-
-      const app = Vue.createApp({
-        data() {
-          return {
-            monto: priceVehicle || 0,
-            enganche: 0,
-            interes: 12,
-            cuotas: 0,
-            cuota: 0,
-            interesCuota: 0,
-            saldoCapital: 0,
-            meses: 12,
-            subMonto: 0,
-            totalGlobal: 0,
-            cuotasArray: [],
-          };
-        },
-        methods: {
-          interesToPercent() {
-            return this.interes / 1200;
-          },
-          formatNumber(number) {
-            return new Intl.NumberFormat("es-GT", {
-              style: "currency",
-              currency: "GTQ",
-            }).format(number);
-          },
-          calcularCuotas() {
-            this.cuotasArray = [];
-            this.subMonto = Number(this.monto) - Number(this.enganche);
-            this.cuotas = (
-              (this.interesToPercent() *
-                -this.subMonto *
-                Math.pow(1 + this.interesToPercent(), Number(this.meses))) /
-              (1 - Math.pow(1 + this.interesToPercent(), Number(this.meses)))
-            ).toFixed(2);
-
-            this.totalGlobal = this.subMonto;
-
-            for (let i = 1; i <= this.meses; i++) {
-              this.interesCuota = (
-                this.subMonto * this.interesToPercent()
-              ).toFixed(2);
-              this.saldoCapital = (this.cuotas - this.interesCuota).toFixed(
-                2
-              );
-              this.subMonto = (this.subMonto - this.saldoCapital).toFixed(2);
-
-              this.cuotasArray.push({
-                numero: i,
-                cuota: this.formatNumber(this.cuotas),
-                interes: this.formatNumber(this.interesCuota),
-                saldoCapital: this.formatNumber(this.totalGlobal),
-              });
-
-              this.totalGlobal = (
-                this.totalGlobal - this.saldoCapital
-              ).toFixed(2);
-            }
-          },
-        },
-        computed: {
-          showInterestFormated() {
-            return `${this.interes}%`;
-          },
-        },
-        mounted() {
-          this.calcularCuotas();
-        },
-      });
-      app.mount("#calculadora");
-
-    </script>
     <!-- FIN VALOR FINANCIADO -->
-    <!-- <script src="../../js/catalogo/view.js"></script> -->
-    <!-- <script src="/js/catalogo/view.js"></script> -->
-
     <script src="../../js/catalogo/add.js"></script>
-    <script src="/js/catalogo/add.js"></script>
-
     <script src="../../js/360mod.js"></script>
-    <script src="/js/360mod.js"></script>
-
     <script src="../../js/360.js"></script>
-    <script src="/js/360.js"></script>
+
 
   </main>
 
