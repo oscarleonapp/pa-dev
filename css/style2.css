@@ -1,3 +1,7 @@
+@import url("https://use.typekit.net/cwc2wqf.css");
+html{
+  font-family: "myriad-pro-semi-condensed", sans-serif;
+}
 root {
   --titulo: #001e32;
   --subtitulos: #000000;
@@ -92,7 +96,7 @@ root {
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
     "nombre nombre precio";
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #000000;
   font-size: 18px;
   /* font-weight: 600; */
@@ -136,7 +140,7 @@ root {
 
 
 .name-col-catalogo {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #008ce6;
   font-size: 18px;
   line-height: 22px;
@@ -198,7 +202,7 @@ root {
   -ms-flex-align: center;
   align-items: center;
   background-color: #259def;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
@@ -228,7 +232,7 @@ root {
   /* border-top-left-radius: 10px; */
   /* border-top-right-radius: 10px; */
   background-color: #eee;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 17px;
   /* line-height: 20px; */
@@ -278,7 +282,7 @@ root {
 .txt-icon {
   display: inline-block;
   margin-left: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 12px;
   font-weight: 500;
@@ -327,7 +331,7 @@ root {
   padding-bottom: 12px;
   border-radius: 20px;
   background-color: #09192b;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
@@ -354,7 +358,7 @@ root {
   padding-bottom: 12px;
   border-radius: 10px;
   background-color: #001e32;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
@@ -377,7 +381,7 @@ root {
   border: 1px solid #008ce6;
   border-radius: 20px;
   background-color: #fff;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #008ce6;
   font-size: 15px;
   font-weight: 700;
@@ -401,7 +405,7 @@ root {
   border: 1px solid #008ce6;
   border-radius: 20px;
   background-color: #fff;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #008ce6;
   font-size: 15px;
   font-weight: 700;
@@ -426,7 +430,7 @@ root {
 
 .titulo-financiamientos {
   margin-bottom: 40px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #14355b;
   font-size: 22px;
   line-height: 26px;
@@ -507,7 +511,7 @@ root {
 .link-breadcrumb {
   display: inline-block;
   margin-right: 3px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #001e32;
   font-size: 15px;
   font-weight: 500;
@@ -553,7 +557,7 @@ root {
 
 .nombre-del-carro-interna {
   margin-bottom: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 32px;
   line-height: 35px;
@@ -564,7 +568,7 @@ root {
 
 .codigo-del-carro-interna {
   margin-bottom: 30px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   font-size: 22px;
   line-height: 25px;
   font-weight: 500;
@@ -582,7 +586,7 @@ root {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   background-color: rgba(0, 0, 0, 0.65);
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 12px;
   line-height: 15px;
@@ -601,7 +605,7 @@ root {
 
 .titulo-360 {
   margin-bottom: 15px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 25px;
   line-height: 30px;
@@ -633,7 +637,7 @@ root {
 
 .titulo-info {
   margin-top: 20px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 22px;
   line-height: 25px;
@@ -662,7 +666,7 @@ root {
 
 .titulos-info {
   margin-right: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #001e32;
   font-size: 18px;
   font-weight: 500;
@@ -670,7 +674,7 @@ root {
 }
 
 .datos-info {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #292829;
   font-size: 18px;
   font-weight: 500;
@@ -688,7 +692,7 @@ root {
 
 .titulo-video {
   margin-bottom: 15px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 25px;
   line-height: 30px;
@@ -720,7 +724,7 @@ root {
 
 .txt-precio-desktop {
   margin-bottom: 40px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #626262;
   font-size: 18px;
   font-weight: 500;
@@ -747,7 +751,7 @@ root {
 
 .titulo-calcular {
   margin-bottom: 20px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #14161e;
   font-size: 22px;
   line-height: 25px;
@@ -790,7 +794,7 @@ root {
   margin-bottom: 0px;
   border: 1px solid #f0eff0;
   border-radius: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #0d1119;
   font-size: 18px;
   font-weight: 500;
@@ -821,7 +825,7 @@ root {
 
 .labels-cuotas {
   margin-bottom: 0px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #2a2b30;
   font-size: 14px;
   font-weight: 500;
@@ -840,7 +844,7 @@ root {
   padding-bottom: 13px;
   border-radius: 30px;
   background-color: #09192b;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -853,7 +857,7 @@ root {
 }
 
 .txt-avisos-interna {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #404249;
   font-size: 14px;
   font-weight: 400;
@@ -873,7 +877,7 @@ root {
 
 .titulo-contacto {
   margin-bottom: 30px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #008ce6;
   font-size: 22px;
   line-height: 22px;
@@ -887,7 +891,7 @@ root {
 
 .label-contacto-inter {
   margin-bottom: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #212e3c;
   font-size: 15px;
   font-weight: 500;
@@ -898,7 +902,7 @@ root {
   margin-bottom: 10px;
   border: 1px solid #c1c7cf;
   border-radius: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #212e3c;
   font-size: 14px;
   font-weight: 500;
@@ -934,7 +938,7 @@ root {
   padding-bottom: 13px;
   border-radius: 30px;
   background-color: #008ce6;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -955,7 +959,7 @@ root {
 
 .txt-ctas {
   margin-bottom: 35px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #1b1c23;
   font-size: 16px;
   font-weight: 500;
@@ -970,7 +974,7 @@ root {
   padding-bottom: 13px;
   border-radius: 30px;
   background-color: #09192b;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -990,7 +994,7 @@ root {
   padding-bottom: 13px;
   border-radius: 30px;
   background-color: #001e32;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -1006,7 +1010,7 @@ root {
 .txt-precio-movil {
   display: none;
   margin-bottom: 40px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #626262;
   font-size: 18px;
   font-weight: 500;
@@ -1026,7 +1030,7 @@ root {
 
 .titulo-ignresa-tus-datos {
   margin-bottom: 40px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 22px;
   line-height: 30px;
@@ -1048,7 +1052,7 @@ root {
 .label-vender {
   width: 25%;
   margin-bottom: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #212e3c;
   font-size: 15px;
   font-weight: 500;
@@ -1065,7 +1069,7 @@ root {
   border: 1px solid #c1c7cf;
   border-radius: 5px;
   background-color: #fff;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #212e3c;
   font-size: 14px;
   font-weight: 500;
@@ -1121,7 +1125,7 @@ root {
 
 .titulo-4-imagenes {
   margin-bottom: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   font-weight: 400;
@@ -1133,7 +1137,7 @@ root {
   padding-top: 10px;
   padding-bottom: 9px;
   border-bottom: 1px solid #d1d2d3;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   font-weight: 700;
@@ -1148,7 +1152,7 @@ root {
   padding: 13px 75px;
   border-radius: 30px;
   background-color: #008ce6;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -1177,7 +1181,7 @@ root {
 }
 
 .txt-aplica-restricciones {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #212e3c;
   font-size: 14px;
   font-weight: 500;
@@ -1195,7 +1199,7 @@ root {
 .titulo-vende-tu-usuado {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 35px;
   line-height: 40px;
@@ -1265,7 +1269,7 @@ root {
 }
 
 .titulo-filtros {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 22px;
   line-height: 22px;
@@ -1274,7 +1278,7 @@ root {
 
 .link-limpiar {
   display: inline-block;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 20px;
   font-weight: 300;
@@ -1312,7 +1316,7 @@ root {
   background-position: 90% 50%;
   background-size: 15px;
   background-repeat: no-repeat;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   text-decoration: none;
   font-size: 16px;
@@ -1343,7 +1347,7 @@ root {
   padding-top: 10px;
   padding-bottom: 9px;
   border-bottom: 1px solid #d3d3d3;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   font-size: 16px;
   text-decoration: none;
@@ -1424,7 +1428,7 @@ root {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   font-weight: 400;
@@ -1473,7 +1477,7 @@ root {
   padding-right: 8px;
   padding-left: 8px;
   border-radius: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   font-weight: 400;
@@ -1554,7 +1558,7 @@ root {
   padding: 12px 40px;
   border-radius: 30px;
   background-color: #09192b;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #fff;
   font-size: 15px;
   font-weight: 600;
@@ -1653,7 +1657,7 @@ root {
   padding-top: 10px;
   padding-bottom: 9px;
   border-bottom: 1px solid #d3d3d3;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   text-decoration: none;
@@ -1676,7 +1680,7 @@ root {
 }
 
 .jc_txt_carg_more {
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #00030b;
   text-align: center;
   font-size: 16px;
@@ -1750,7 +1754,7 @@ root {
   padding-right: 8px;
   padding-left: 8px;
   border-radius: 5px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   color: #01030b;
   font-size: 16px;
   font-weight: 400;
@@ -1790,7 +1794,7 @@ root {
   border-radius: 50%;
   color: #fff;
   display: flex;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   height: 35px;
   justify-content: center;
   line-height: 26px;
@@ -1831,7 +1835,7 @@ root {
   border-radius: 50%;
   color: #fff;
   display: flex;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   height: 35px;
   justify-content: center;
   margin-left: 4px;
@@ -1875,7 +1879,7 @@ root {
 
 .calculadora-lightbox-content table thead th {
   padding: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   font-weight: 600;
   text-align: center;
   line-height: 120%;
@@ -1895,7 +1899,7 @@ root {
 
 .calculadora-lightbox-content table tbody tr td {
   padding: 10px;
-  font-family: Barlow, sans-serif;
+  font-family: "myriad-pro-semi-condensed", sans-serif;
   text-align: center;
   line-height: 120%;
   color: #00030b;
