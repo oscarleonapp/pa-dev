@@ -107,7 +107,7 @@ root {
 .c-nombre .nombre {
   justify-self: start;
   grid-area: nombre;
-  color: #0073bc;
+  color: #008ce6;
 }
 
 .c-nombre .nombre span {
@@ -137,7 +137,7 @@ root {
 
 .name-col-catalogo {
   font-family: Barlow, sans-serif;
-  color: #0073bc;
+  color: #008ce6;
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
@@ -177,7 +177,7 @@ root {
   width: 50%;
   float: right;
   border-top-left-radius: 30px;
-  background-color: #0270bb;
+  background-color: #008ce6;
 }
 
 .res-col-catalogo {
@@ -374,11 +374,11 @@ root {
   padding-top: 10px;
   padding-bottom: 10px;
   float: left;
-  border: 1px solid #0270bb;
+  border: 1px solid #008ce6;
   border-radius: 20px;
   background-color: #fff;
   font-family: Barlow, sans-serif;
-  color: #0270bb;
+  color: #008ce6;
   font-size: 15px;
   font-weight: 700;
   text-align: center;
@@ -387,7 +387,7 @@ root {
 }
 
 .cta-test-catalogo:hover {
-  background-color: #0270bb;
+  background-color: #008ce6;
   color: #fff;
 }
 
@@ -398,11 +398,11 @@ root {
   padding-top: 10px;
   padding-bottom: 10px;
   float: left;
-  border: 1px solid #0270bb;
+  border: 1px solid #008ce6;
   border-radius: 20px;
   background-color: #fff;
   font-family: Barlow, sans-serif;
-  color: #0270bb;
+  color: #008ce6;
   font-size: 15px;
   font-weight: 700;
   text-align: center;
@@ -410,7 +410,7 @@ root {
 }
 
 .cta-detalle-catalogo:hover {
-  background-color: #0270bb;
+  background-color: #008ce6;
   color: #fff;
 }
 
@@ -874,7 +874,7 @@ root {
 .titulo-contacto {
   margin-bottom: 30px;
   font-family: Barlow, sans-serif;
-  color: #0470bb;
+  color: #008ce6;
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
@@ -933,7 +933,7 @@ root {
   padding-top: 13px;
   padding-bottom: 13px;
   border-radius: 30px;
-  background-color: #0470bb;
+  background-color: #008ce6;
   font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 16px;
@@ -1147,7 +1147,7 @@ root {
   display: inline-block;
   padding: 13px 75px;
   border-radius: 30px;
-  background-color: #0470bb;
+  background-color: #008ce6;
   font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 16px;
@@ -1354,7 +1354,7 @@ root {
 }
 
 .agencia-filtro.jplist-selected {
-  color: #0270bb !important;
+  color: #008ce6 !important;
 }
 
 .agencia-filtro:hover {
@@ -1406,7 +1406,7 @@ root {
 }
 
 .checkbox-filtro:hover .chechkbox-label-filtro {
-  color: #0270bb;
+  color: #008ce6;
 }
 
 .checkbox-item-filtro {
@@ -1720,7 +1720,7 @@ root {
 
 .jplist-slider-holder-1,
 .jplist-slider-holder-2 {
-  background-color: #0073bc !important;
+  background-color: #008ce6 !important;
   border: 3px solid #fff !important;
   border-radius: 50% !important;
   height: 25px !important;
@@ -1736,7 +1736,7 @@ root {
 }
 
 .jplist-slider-range {
-  background-color: #0073bc !important;
+  background-color: #008ce6 !important;
   height: 6px !important;
   top: 50% !important;
   transform: translateY(50%) !important;
