@@ -1318,6 +1318,23 @@ body {
   transition: background-color 0.2s;
 }
 
+.share {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* background-color: #fff; */
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  background-image: url("../source/img/iconos/share.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 35px;
+  /* box-shadow: 0px 0px 3px rgb(0 0 0 / 13%); */
+  z-index: 1;
+  transition: background-color 0.2s;
+}
+
 /* .fab-message:hover {
   background-color: #eee;
 } */
