@@ -177,6 +177,7 @@ body {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 20px;
 }
 
 .jc_cont_slider {
@@ -235,8 +236,7 @@ body {
 
 .mascara_slide {
   height: auto;
-  /* border-radius: 10px; */
-  padding-top: 90px;
+  border-radius: 10px;
 }
 
 .icon {
