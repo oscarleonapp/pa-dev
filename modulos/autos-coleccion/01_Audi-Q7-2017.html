@@ -312,38 +312,118 @@
             <!-- CALL TO ACTION -->
 
 
-
-            <div class="jc_cont_financiamientos">
-              <div class="jc_cont_titul_finan">
-                <div class="jc_txt_titul_finan">Contamos con los mejores planes de financiamiento.</div>
+            <!-- CALCULADORA DE CUOTAS -->
+            <div class="content-calcular-cuotas" id="calculadora">
+              <div class="titulo-calcular">Calcular Cuotas</div>
+              <div class="content-form-cuotas">
+                <div class="form-interna-catalogo">
+                  <form method="get">
+                    <div class="col-cuotas">
+                      <label for="monto" class="labels-cuotas">Monto Q</label>
+                      <input type="number" class="inputs-cuotas w-input" placeholder="52142.40" id="name" :value="monto"
+                        disabled id="monto" />
+                    </div>
+                    <div class="col-cuotas">
+                      <label for="enganche" class="labels-cuotas">
+                        Enganche Q<br />
+                        <span class="sugerido-por">20% de porcentaje (Q12,780.00)</span>
+                      </label>
+                      <input type="number" class="inputs-cuotas enganche w-input" placeholder="12,780.00" id="enganche"
+                        v-model="enganche" />
+                    </div>
+                    <div class="col-cuotas">
+                      <label for="interes" class="labels-cuotas">Porcentaje de intéres</label>
+                      <input type="text" class="inputs-cuotas w-input" placeholder="12%" id="interes"
+                        :value="showInterestFormated" disabled />
+                    </div>
+                    <div class="col-cuotas">
+                      <label for="meses" class="labels-cuotas">Número de cuotas</label>
+                      <select class="inputs-cuotas enganche w-select" id="meses" v-model="meses" required>
+                        <option value="12">12</option>
+                        <option value="24">24</option>
+                        <option value="36">36</option>
+                        <option value="48">48</option>
+                        <option value="60">60</option>
+                      </select>
+                    </div>
+                    <button data-src="#contentCalculadoraLightbox" data-fancybox="calculadora" type="button"
+                      @click="calcularCuotas" class="cta-cuaotas w-button">
+                      Calcular Cuota
+                    </button>
+                  </form>
+                </div>
               </div>
-              <div class="jc_cont_logos_finan">
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_01.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_02.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_03.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_04.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_05.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_06.png" loading="lazy" alt="">
-                </div>
-                <div class="jc_cta_icon_finan w-inline-block">
-                  <img src="../../source/img/bancos/Banco_07.png" loading="lazy" alt="">
+              <div class="calculadora-lightbox" id="contentCalculadoraLightbox">
+                <div class="c-calculadora-lightbox">
+                  <div class="calculadora-lightbox-content">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th>No.</th>
+                          <th>Valor de la cuota</th>
+                          <th>Interés</th>
+                          <th>Saldo al capital</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="(cuota, index) in cuotasArray" :key="index">
+                          <td>{{ index + 1 }}</td>
+                          <td>{{ cuota.cuota }}</td>
+                          <td>{{ cuota.interes }}</td>
+                          <td>{{ cuota.saldoCapital }}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
-
+            <div class="avisos-interna">
+              <div class="txt-avisos-interna">
+                *No incluye seguro ni gastos de escrituración
+              </div>
+              <div class="txt-avisos-interna">
+                *Puede variar dependiendo de la opción seleccionada.
+              </div>
+              <div class="txt-avisos-interna">*Tasa del 12%</div>
+              <div class="txt-avisos-interna">
+                *Está es una estimación del cálculo de las cuotas el valor
+                puede variar.
+              </div>
+            </div>
+            <!--END CALCULADORA DE CUOTAS -->
           </div>
         </div>
+
+        <div class="jc_cont_financiamientos">
+          <div class="jc_cont_titul_finan">
+            <div class="jc_txt_titul_finan">Contamos con los mejores planes de financiamiento.</div>
+          </div>
+          <div class="jc_cont_logos_finan">
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_01.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_02.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_03.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_04.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_05.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_06.png" loading="lazy" alt="">
+            </div>
+            <div class="jc_cta_icon_finan w-inline-block">
+              <img src="../../source/img/bancos/Banco_07.png" loading="lazy" alt="">
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="jc_cont_titul_finan">
         <div class="creditos_footer">Desarrollado por <span class=""><a href="https://oscarleon.app/" class="oscarleon"
