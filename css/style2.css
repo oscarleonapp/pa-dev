@@ -642,7 +642,7 @@ root {
   font-size: 22px;
   line-height: 25px;
   font-weight: 600;
-  text-align: center;
+  text-align: start;
 }
 
 .informacion-interna {

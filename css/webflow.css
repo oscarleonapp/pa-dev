@@ -17,13 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.w-icon-slider-right:before {
+/* .w-icon-slider-right:before {
   content: "\e600";
-}
+} */
 
-.w-icon-slider-left:before {
+/* .w-icon-slider-left:before {
   content: "\e601";
-}
+} */
 
 .w-icon-nav-menu:before {
   content: "\e602";
@@ -1272,6 +1272,7 @@ textarea.w-select {
   margin: auto;
   width: 1em;
   height: 1em;
+  /* color: #0082f3; */
 }
 
 .w-slider-aria-label {
