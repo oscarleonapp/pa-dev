@@ -108,28 +108,81 @@
     <!-- ###################################### -->
     <main class="main box jplist">
 
-        <section class="content__beneficios">
-            <div class="contenedor w-clearfix">
-                <div class="left__beneficios aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000"
-                    style="background-image: url(https://images.pexels.com/photos/3823488/pexels-photo-3823488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <section class="servicios-heading">
+            <div class="contenedor">
+                <div class="c-servicios-heading">
+                    <h1 data-aos="fade-up" data-aos-duration="1000"
+                        class="servicios-heading__title aos-init aos-animate">Servicios</h1>
                 </div>
-                <div class="right__beneficios aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
-                    <h1>Titulo</h1>
+            </div>
+        </section>
+        <section class="content__beneficios var">
+            <div class="contenedor w-clearfix">
+                <div data-aos="fade-right" data-aos-duration="1000" class="left__beneficios var aos-init aos-animate"
+                    style="background-image: url(https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000"
+                    class="right__beneficios right__beneficios_ser aos-init aos-animate">
+                    <h1>Titulo #1.</h1>
 
                     <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas totam modi soluta
+                            quae amet eius saepe.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas totam modi soluta
+                            quae amet eius saepe.</li>
                     </ul>
                 </div>
             </div>
         </section>
+        <section class="servicios__abajo var aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+            <div class="contenedor">
+                <!-- <a href="https://cofalusados.com/servicios#" class="arrow_slider w-inline-block" id="atras"></a>
+                <a href="https://cofalusados.com/servicios#" class="arrow_slider right w-inline-block"
+                    id="adelante"></a> -->
+                <div class="content__servicios w-clearfix">
+                    <ul class="rotador">
+
+                        <li>
+                            <a href="#" class="columna__servicio w-inline-block">
+                                <img src="./Cofiño Stahl Usados_ Servicios_files/iconS1.png" class="icon__servicios"
+                                    alt="Icono">
+                                <div class="texto__servicio">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas totam
+                                        modi soluta
+                                        quae amet eius saepe</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="columna__servicio w-inline-block">
+                                <img src="./Cofiño Stahl Usados_ Servicios_files/iconS2.png" class="icon__servicios"
+                                    alt="Icono">
+                                <div class="texto__servicio">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas totam
+                                        modi soluta
+                                        quae amet eius saepe</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="columna__servicio w-inline-block">
+                                <img src="./Cofiño Stahl Usados_ Servicios_files/d.png" class="icon__servicios"
+                                    alt="Icono">
+                                <div class="texto__servicio">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas totam
+                                        modi soluta
+                                        quae amet eius saepe</p>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <style>
-            .right__beneficios {
+            .right__beneficios_ser h1 {
                 margin-top: 0px;
                 margin-bottom: 30px;
                 font-family: Barlow, sans-serif;
@@ -139,12 +192,12 @@
                 font-weight: 600;
             }
 
-            .right__beneficios ul {
+            .right__beneficios_ser ul {
                 padding-left: 0px;
                 list-style-type: none;
             }
 
-            .right__beneficios ul li {
+            .right__beneficios_ser ul li {
                 margin-bottom: 18px;
                 padding-left: 25px;
                 background-image: url('https://cofalusados.com/images/bullet1.png');
@@ -155,18 +208,8 @@
                 color: #fff;
                 font-size: 18px;
             }
-
-            @media screen and (max-width: 479px) {
-                .left__beneficios {
-                    z-index: 1;
-                }
-
-                .right__beneficios {
-                    margin-top: -140px;
-                    width: 85%;
-                }
-            }
         </style>
+
 
 
 
