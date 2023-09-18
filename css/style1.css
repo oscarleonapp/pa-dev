@@ -47,7 +47,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  height: 75px;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -74,6 +74,7 @@ body {
 }
 
 .container_info {
+  margin-top: 7px;
   display: inline;
   width: 15%;
   text-align: right;
