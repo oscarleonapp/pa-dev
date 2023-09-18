@@ -922,6 +922,33 @@ body {
   width: 48%;
 }
 
+.right__beneficios_ser h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Barlow, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.right__beneficios_ser ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.right__beneficios_ser ul li {
+  margin-bottom: 18px;
+  padding-left: 25px;
+  background-image: url('https://cofalusados.com/images/bullet1.png');
+  background-position: 0% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: Barlow, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
 .titulo__beneficios {
   margin-top: 0px;
   margin-bottom: 30px;
