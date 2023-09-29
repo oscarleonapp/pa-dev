@@ -4,90 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
-  <title>Visor de Panorama en 360 Grados</title>
+  <title>Document</title>
+
+  <script>
+
+  </script>
 </head>
 <style>
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-  }
 
-  .viewer {
-    width: 100%;
-    max-width: 800px;
-    text-align: center;
-  }
-
-  .panorama {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    height: 400px;
-  }
-
-  .panorama img {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s;
-  }
-
-  .controls {
-    margin-top: 20px;
-  }
-
-  .button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin: 0 10px;
-  }
 </style>
 
 <body>
-  <div class="viewer">
-    <div class="panorama">
-      <img src="../../source/360prueba.png" alt="Panorama 360">
-    </div>
-    <div class="controls">
-      <button class="button" id="left">Izquierda</button>
-      <button class="button" id="right">Derecha</button>
-    </div>
-  </div>
 
-  <script>
-    const panorama = document.querySelector('.panorama');
-    const panoramaImage = document.querySelector('.panorama img');
-    const leftButton = document.getElementById('left');
-    const rightButton = document.getElementById('right');
-
-    let currentDegree = 0;
-
-    leftButton.addEventListener('click', () => {
-      currentDegree -= 60;
-      updatePanoramaView();
-    });
-
-    rightButton.addEventListener('click', () => {
-      currentDegree += 60;
-      updatePanoramaView();
-    });
-
-    function updatePanoramaView() {
-      panoramaImage.style.transform = `rotateY(${currentDegree}deg)`;
-    }
-
-  </script>
 </body>
 
 </html>
