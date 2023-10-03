@@ -138,7 +138,7 @@
             <section class="jc_cont_filtros">
                 <div class="contenedor">
                     <div class="formulario_filtros">
-                        <form action="../modulos/catalogo-autos.html" method="get" id="formFiltrosDesktop"
+                        <form action="catalogo-motos.html" method="get" id="formFiltrosDesktop"
                             class="form-filtros w-clearfix jplist-panel">
                             <input value="" data-jplist-control="textbox-filter" data-group="group1"
                                 data-name="filter-search" data-path=".nombre" type="search"
@@ -148,7 +148,6 @@
                             <input class="input-hidden" id="inputSearchBrand" type="text" name="brand" value="" />
                             <input class="input-hidden" id="inputSearchTransmission" type="text" name="transmission"
                                 value="" />
-                            <input class="input-hidden" id="inputSearchLocation" type="text" name="location" value="" />
                             <input class="input-hidden" id="inputSearchOrder" type="text" name="order" value="" />
                             <input class="input-hidden" id="inputSearchMinYear" type="text" name="minYear" value="" />
                             <input class="input-hidden" id="inputSearchMaxYear" type="text" name="maxYear" value="" />
@@ -158,7 +157,6 @@
                                 value="" />
                             <input class="input-hidden" id="inputSearchMaxMileage" type="text" name="maxMileage"
                                 value="" />
-                            <input class="input-hidden" id="inputSearchFuel" type="text" name="fuel" value="" />
                             <div class="mid__filter w-clearfix">
 
                                 <!-- ##### FILTRO POR TIPO ##### -->
@@ -166,7 +164,7 @@
 
                                     <div class="mid_filter_item_heading">
                                         <button type="button" class="mid_filter_item_heading_title w-button">
-                                            Tipo de auto
+                                            Tipo de moto
                                         </button>
                                     </div>
                                     <div class="mid_filter_item_content">
@@ -175,70 +173,28 @@
                                                 data-path="default" data-group="group1" data-name="filter-tipo"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter w-button">
-                                                Todos
+                                                Todas
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".blindado" data-group="group1" data-name="filter-tipo"
+                                                data-path=".pasola" data-group="group1" data-name="filter-tipo"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter w-button">
-                                                Blindado
+                                                pasola
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".bus" data-group="group1" data-name="filter-tipo"
+                                                data-path=".deportiva" data-group="group1" data-name="filter-tipo"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter w-button">
-                                                Bus
+                                                Deportiva
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".camion" data-group="group1" data-name="filter-tipo"
+                                                data-path=".rally" data-group="group1" data-name="filter-tipo"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter w-button">
-                                                Camión
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".camioneta" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                Camioneta
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".hatchback" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                Hatchback
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".panel" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                Panel
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".pickup" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                Pickup
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".sedan" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                Sedán
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".suv" data-group="group1" data-name="filter-tipo"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter w-button">
-                                                SUV
+                                                Rally
                                             </button>
 
                                         </div>
@@ -258,14 +214,14 @@
                                                 data-path="default" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Todos
+                                                Todas
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".audi" data-group="group1" data-name="filter-marca"
+                                                data-path=".husqvarna" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Audi
+                                                Husqvarna
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
@@ -276,109 +232,54 @@
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".changan" data-group="group1" data-name="filter-marca"
+                                                data-path=".triumph" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Changan
+                                                Triumph
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".chevrolet" data-group="group1" data-name="filter-marca"
+                                                data-path=".sherco" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Chevrolet
+                                                Sherco
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".ford" data-group="group1" data-name="filter-marca"
+                                                data-path=".yamaha" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Ford
+                                                Yamaha
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".honda" data-group="group1" data-name="filter-marca"
+                                                data-path=".aprillia" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Honda
+                                                Aprillia
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".hyundai" data-group="group1" data-name="filter-marca"
+                                                data-path=".kawasaki" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Hyundai
+                                                Kawasaki
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".isuzu" data-group="group1" data-name="filter-marca"
+                                                data-path=".ktm" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                Isuzu
+                                                KTM
                                             </button>
 
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".kia" data-group="group1" data-name="filter-marca"
+                                                data-path=".piaggio" data-group="group1" data-name="filter-marca"
                                                 data-mode="radio" type="button"
                                                 class="mid_filter_item_content_filter_text w-button">
-                                                KIA
+                                                Piaggio
                                             </button>
 
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".lexus" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Lexus
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".mazda" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Mazda
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".mitsubishi" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Mitsubishi
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".nissan" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Nissan
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".renault" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Renault
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".subaru" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Subaru
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".toyota" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Toyota
-                                            </button>
-
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".volskwagen" data-group="group1" data-name="filter-marca"
-                                                data-mode="radio" type="button"
-                                                class="mid_filter_item_content_filter_text w-button">
-                                                Volskwagen
-                                            </button>
 
                                         </div>
                                     </div>
@@ -396,20 +297,20 @@
                                             <label
                                                 class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
                                                 <input data-jplist-control="checkbox-path-filter"
-                                                    data-path=".automatico" data-or="gender" data-group="group1"
+                                                    data-path=".automatica" data-or="gender" data-group="group1"
                                                     data-name="filter-transmisione" type="checkbox"
                                                     class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100" />
                                                 <span class="chechkbox-label-filtro w-form-label"
-                                                    for="checkbox">Automático</span>
+                                                    for="checkbox">Automática</span>
                                             </label>
                                             <label
                                                 class="w-checkbox checkbox-filtro checkbox-filtro--transmission checkbox-filtro--100 w-clearfix">
-                                                <input data-jplist-control="checkbox-path-filter" data-path=".mecanico"
+                                                <input data-jplist-control="checkbox-path-filter" data-path=".mecanica"
                                                     data-or="gender" data-group="group1" data-name="filter-transmisione"
                                                     type="checkbox"
                                                     class="w-checkbox-input checkbox-item-filtro checkbox-item-filtro--100" />
                                                 <span class="chechkbox-label-filtro w-form-label"
-                                                    for="checkbox">Mecánico</span>
+                                                    for="checkbox">Mecánica</span>
                                             </label>
                                         </div>
                                     </div>
@@ -435,40 +336,8 @@
                                     </button>
                                 </div>
                                 <div class="bottom-filtros w-clearfix">
-                                    <a href="#" id="ubicacion" class="cta-filtro">Ubicación</a>
                                     <a href="#" id="ordenar" class="cta-filtro">Ordernar</a>
                                     <a href="#" id="anio" class="cta-filtro">Año</a>
-
-                                    <!-- ##### FILTRO POR UBICACIÓN ##### -->
-                                    <div class="filtro-ubicacion">
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path="default" data-group="group1" data-name="filter-sucursale"
-                                            data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--location w-button">
-                                            Todos
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".agencia-proceres" data-group="group1"
-                                            data-name="filter-sucursale" data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--location w-button">
-                                            Boulevar Los Próceres
-                                        </button>
-
-                                        <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                        data-path=".agencia-yurrita" data-group="group1" data-name="filter-sucursale"
-                                        data-mode="radio" type="button"
-                                        class="agencia-filtro agencia-filtro--location w-button">
-                                        Agencia Yurrita
-                                    </button> -->
-
-                                        <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                        data-path=".agencia-arrazola" data-group="group1" data-name="filter-sucursale"
-                                        data-mode="radio" type="button"
-                                        class="agencia-filtro agencia-filtro--location w-button">
-                                        Agencia Arrazola
-                                    </button> -->
-
-                                    </div>
 
                                     <!-- ##### FILTRO POR ORDEN ##### -->
                                     <div class="filtro-ordenar w-clearfix">
@@ -526,7 +395,6 @@
                                     <!-- ##### OTROS FILTROS ##### -->
                                     <a href="#" id="precio" class="cta-filtro">Precio</a>
                                     <a href="#" id="kilometraje" class="cta-filtro">Kilometraje</a>
-                                    <a href="#" id="combustible" class="cta-filtro">Combustible</a>
 
                                     <!-- ##### FILTRO POR PRECIO ##### -->
                                     <div class="filtro-precio">
@@ -572,28 +440,6 @@
                                         </div>
                                     </div>
 
-                                    <!-- ##### FILTRO POR COMBUSTIBLE ##### -->
-                                    <div class="filtro-combustible">
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path="default" data-group="group1" data-name="filter-combustible"
-                                            data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--fuel w-button">
-                                            Todos
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".gasolina" data-group="group1" data-name="filter-combustible"
-                                            data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--fuel w-button">
-                                            Gasolina
-                                        </button>
-                                        <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".diesel" data-group="group1" data-name="filter-combustible"
-                                            data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--fuel w-button">
-                                            Diesel
-                                        </button>
-                                    </div>
-
                                 </div>
                                 <div class="content-cta-filtro">
                                     <button id="view-results" type="button" class="cta-ver-resultado">
@@ -609,8 +455,7 @@
                 <div class="conten-filtros-movil">
                     <div class="contenedor">
                         <div class="formulario_filtros">
-                            <form action="../modulos/catalogo-autos.html" id="formFiltrosMovil" method="get"
-                                class="form-filtros">
+                            <form action="catalogo-motos.html" id="formFiltrosMovil" method="get" class="form-filtros">
                                 <input class="input-hidden" id="inputSearchNameMobile" type="text" name="name"
                                     value="" />
                                 <input class="input-hidden" id="inputSearchTypeMobile" type="text" name="typeMobile"
@@ -619,8 +464,6 @@
                                     value="" />
                                 <input class="input-hidden" id="inputSearchTransmissionMobile" type="text"
                                     name="transmissionMobile" value="" />
-                                <input class="input-hidden" id="inputSearchLocationMobile" type="text"
-                                    name="locationMobile" value="" />
                                 <input class="input-hidden" id="inputSearchOrderMobile" type="text" name="orderMobile"
                                     value="" />
                                 <input class="input-hidden" id="inputSearchMinYearMobile" type="text"
@@ -635,8 +478,6 @@
                                     name="minMileageMobile" value="" />
                                 <input class="input-hidden" id="inputSearchMaxMileageMobile" type="text"
                                     name="maxMileageMobile" value="" />
-                                <input class="input-hidden" id="inputSearchFuelMobile" type="text" name="fuelMobile"
-                                    value="" />
                                 <div class="seis-filtros-movil">
                                     <div class="top-filtros">
                                         <button type="button" class="close-link w-inline-block">
@@ -650,78 +491,44 @@
                                     </div>
                                     <div class="bottom-filtros w-clearfix">
                                         <button type="button" id="tipo-movil" class="cta-filtro">
-                                            Tipo
+                                            Tipo de moto
                                         </button>
                                         <div class="filtro-tipo">
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
                                                 data-path="default" data-group="group1" data-name="filter-tipo-movil"
                                                 data-mode="radio" type="button"
                                                 class="tipo-car tipo-car--type-mobile w-button">
-                                                Todos
+                                                Todas
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".hatchback" data-group="group1" data-name="filter-tipo-movil"
-                                                data-mode="radio" style="
-                            background-image: url(../source/img/autos/1.png);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Hatchback
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".pickup" data-group="group1" data-name="filter-tipo-movil"
+                                                data-path=".pasola" data-group="group1" data-name="filter-tipo-movil"
                                                 data-mode="radio" style="
                             background-image: url(#);
                           " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Pickup
+                                                Pasola
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".panel" data-group="group1" data-name="filter-tipo-movil"
+                                                data-path=".deportiva" data-group="group1" data-name="filter-tipo-movil"
                                                 data-mode="radio" style="
                             background-image: url(#);
                           " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Panel
+                                                Deportiva
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".blindado" data-group="group1" data-name="filter-tipo-movil"
+                                                data-path=".rally" data-group="group1" data-name="filter-tipo-movil"
                                                 data-mode="radio" style="
                             background-image: url(#);
                           " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Blindado
+                                                Rally
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".suv" data-group="group1" data-name="filter-tipo-movil"
+                                                data-path=".chopper" data-group="group1" data-name="filter-tipo-movil"
                                                 data-mode="radio" style="
-                            background-image: url(#);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                SUV
+                        background-image: url(#);
+                      " type="button" class="tipo-car tipo-car--type-mobile w-button">
+                                                Chopper
                                             </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".sedan" data-group="group1" data-name="filter-tipo-movil"
-                                                data-mode="radio" style="
-                            background-image: url(#);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Sedán
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".camioneta" data-group="group1" data-name="filter-tipo-movil"
-                                                data-mode="radio" style="
-                            background-image: url(#);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Camioneta
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".bus" data-group="group1" data-name="filter-tipo-movil"
-                                                data-mode="radio" style="
-                            background-image: url(#);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Bus
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".camion" data-group="group1" data-name="filter-tipo-movil"
-                                                data-mode="radio" style="
-                            background-image: url(#);
-                          " type="button" class="tipo-car tipo-car--type-mobile w-button">
-                                                Camión
-                                            </button>
+
                                         </div>
                                         <button type="button" id="marca-movil" class="cta-filtro">
                                             Marca
@@ -734,22 +541,10 @@
                                                 Todos
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".isuzu" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Isuzu
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".changan" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Changan
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".volskwagen" data-group="group1"
+                                                data-path=".husqvarna" data-group="group1"
                                                 data-name="filter-marca-movil" data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Volskwagen
+                                                Husqvarna
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
                                                 data-path=".bmw" data-group="group1" data-name="filter-marca-movil"
@@ -758,83 +553,48 @@
                                                 BMW
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".honda" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".triumph" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Honda
+                                                Triumph
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".ford" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".sherco" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Ford
+                                                Sherco
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".renault" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".yamaha" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Renault
+                                                Yamaha
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".subaru" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".aprillia" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Subaru
+                                                Aprillia
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".audi" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".kawasaki" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Audi
+                                                Kawasaki
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".chevrolet" data-group="group1"
-                                                data-name="filter-marca-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Chevrolet
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".hyundai" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".ktm" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Hyundai
+                                                KTM
                                             </button>
                                             <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".kia" data-group="group1" data-name="filter-marca-movil"
+                                                data-path=".piaggio" data-group="group1" data-name="filter-marca-movil"
                                                 data-mode="radio" type="button"
                                                 class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                KIA
+                                                Piaggio
                                             </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".lexus" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Lexus
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".mazda" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Mazda
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".toyota" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Toyota
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".mitsubishi" data-group="group1"
-                                                data-name="filter-marca-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Mitsubishi
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".nissan" data-group="group1" data-name="filter-marca-movil"
-                                                data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--brand-mobile w-button">
-                                                Nissan
-                                            </button>
+
                                         </div>
                                         <button type="button" id="transmision-movil" class="cta-filtro">
                                             Transmisión
@@ -844,54 +604,22 @@
                                                 <label
                                                     class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
                                                     <input data-jplist-control="checkbox-path-filter"
-                                                        data-path=".automatico" data-or="gender" data-group="group1"
+                                                        data-path=".automatica" data-or="gender" data-group="group1"
                                                         data-name="filter-transmisione-movil" type="checkbox"
                                                         class="w-checkbox-input checkbox-item-filtro" />
                                                     <span class="chechkbox-label-filtro w-form-label"
-                                                        for="checkbox">Automático</span>
+                                                        for="checkbox">Automática</span>
                                                 </label>
                                                 <label
                                                     class="w-checkbox checkbox-filtro checkbox-filtro--transmission-mobile w-clearfix">
                                                     <input data-jplist-control="checkbox-path-filter"
-                                                        data-path=".mecanico" data-or="gender" data-group="group1"
+                                                        data-path=".mecanica" data-or="gender" data-group="group1"
                                                         data-name="filter-transmisione-movil" type="checkbox"
                                                         class="w-checkbox-input checkbox-item-filtro" />
                                                     <span class="chechkbox-label-filtro w-form-label"
-                                                        for="checkbox">Mecánico</span>
+                                                        for="checkbox">Mecánica</span>
                                                 </label>
                                             </div>
-                                        </div>
-                                        <button type="button" id="ubicacion-movil" class="cta-filtro">
-                                            Ubicación
-                                        </button>
-                                        <div class="filtro-ubicacion">
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path="default" data-group="group1"
-                                                data-name="filter-sucursale-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--location-mobile w-button">
-                                                Todos
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".agencia-proceres" data-group="group1"
-                                                data-name="filter-sucursale-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--location-mobile w-button">
-                                                Boulevar Los Próceres
-                                            </button>
-
-                                            <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".agencia-yurrita" data-group="group1"
-                                            data-name="filter-sucursale-movil" data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
-                                            Agencia Yurrita
-                                        </button> -->
-
-                                            <!-- <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                            data-path=".agencia-arrazola" data-group="group1"
-                                            data-name="filter-sucursale-movil" data-mode="radio" type="button"
-                                            class="agencia-filtro agencia-filtro--location-mobile w-button">
-                                            Agencia Arrazola
-                                        </button> -->
-
                                         </div>
                                         <button type="button" id="ordenar-movil" class="cta-filtro">
                                             Ordernar
@@ -1006,29 +734,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="button" id="com-movil" class="cta-filtro">
-                                            Combustible
-                                        </button>
-                                        <div class="filtro-combustible">
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path="default" data-group="group1"
-                                                data-name="filter-combustible-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--fuel-mobile w-button">
-                                                Todos
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".gasolina" data-group="group1"
-                                                data-name="filter-combustible-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--fuel-mobile w-button">
-                                                Gasolina
-                                            </button>
-                                            <button data-selected="false" data-jplist-control="buttons-text-filter"
-                                                data-path=".diesel" data-group="group1"
-                                                data-name="filter-combustible-movil" data-mode="radio" type="button"
-                                                class="agencia-filtro agencia-filtro--fuel-mobile w-button">
-                                                Diesel
-                                            </button>
-                                        </div>
                                     </div>
                                     <div class="content-cta-filtro">
                                         <button id="view-results" type="button" class="cta-ver-resultado">
@@ -1053,6 +758,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="husqvarna"></span>
+                            <span class="deportiva"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2021" style="
                             position: absolute;
@@ -1120,6 +826,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="triumph"></span>
+                            <span class="chopper"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2018" style="
                             position: absolute;
@@ -1185,6 +892,7 @@
                         <!-- MOTO 3 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="sherco"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2019" style="
@@ -1252,6 +960,7 @@
                         <!-- MOTO 4 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="yamaha"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2009" style="
@@ -1319,6 +1028,7 @@
                         <!-- MOTO 5 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="yamaha"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2019" style="
@@ -1385,6 +1095,7 @@
                         <!-- MOTO 6 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="bmw"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2016" style="
@@ -1453,6 +1164,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="bmw"></span>
+                            <span class="deportiva"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2016" style="
                             position: absolute;
@@ -1519,6 +1231,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="bmw"></span>
+                            <span class="deportiva"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2013" style="
                                                 position: absolute;
@@ -1585,6 +1298,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="aprillia"></span>
+                            <span class="deportiva"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2019" style="
                                                                     position: absolute;
@@ -1650,6 +1364,7 @@
                         <!-- MOTO 10 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="kawasaki"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2018" style="
@@ -1716,6 +1431,7 @@
                         <!-- MOTO 11 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="rally"></span>
                             <span class="triumph"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2022" style="
@@ -1782,6 +1498,7 @@
                         <!-- MOTO 12 -->
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
+                            <span class="deportiva"></span>
                             <span class="ktm"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2021" style="
@@ -1812,8 +1529,8 @@
 
                                 </div>
                                 <div class="c-nombre">
-                                    <div class="nombre"><b>TRIUMPH</b> <span><b>900 RALLY</b> 1200 Cc</span></div>
-                                    <div class="precio"><span class="line-items1">|</span>Q130,000.00
+                                    <div class="nombre"><b>KTM</b> <span><b>ADVENTURE</b> 390 Cc</span></div>
+                                    <div class="precio"><span class="line-items1">|</span>Q55,000.00
                                     </div>
                                 </div>
                             </a>
@@ -1823,13 +1540,13 @@
                                         <div class="icons-txt-col-cat">
                                             <img src="../source/img/iconos/km.png" loading="lazy" alt=""
                                                 class="icons-cols" />
-                                            <div class="txt-icon">1,998 km</div>
+                                            <div class="txt-icon">1,444 km</div>
                                         </div>
                                         <div class="line-items"></div>
                                         <div class="icons-txt-col-cat">
                                             <img src="../source/img/iconos/motor.png" loading="lazy" alt=""
                                                 class="icons-cols" />
-                                            <div class="txt-icon">1,200 Cc</div>
+                                            <div class="txt-icon">390 Cc</div>
                                         </div>
                                         <div class="line-items"></div>
                                         <div class="icons-txt-col-cat">
@@ -1849,7 +1566,8 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="piaggio"></span>
-                            <span class="mecanica"></span>
+                            <span class="pasola"></span>
+                            <span class="automatica"></span>
                             <span class="anio 2021" style="
                                                 position: absolute;
                                                 height: 0;
@@ -1915,7 +1633,8 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="aprillia"></span>
-                            <span class="mecanica"></span>
+                            <span class="pasola"></span>
+                            <span class="automatica"></span>
                             <span class="anio 2015" style="
                                                                     position: absolute;
                                                                     height: 0;
@@ -1981,6 +1700,7 @@
                         <div data-aos="zoom-in" data-aos-duration="1000" class="col-catalogo list-item"
                             data-jplist-item>
                             <span class="yamaha"></span>
+                            <span class="deportiva"></span>
                             <span class="mecanica"></span>
                             <span class="anio 2020" style="
                                                                     position: absolute;
